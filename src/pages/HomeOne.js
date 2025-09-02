@@ -1,5 +1,7 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
+import SEO from "../seo";
+
 const BannerOne = React.lazy(() => import("../components/BannerOne"));
 const AboutOne = React.lazy(() => import("../components/AboutOne"));
 const BlogOne = React.lazy(() => import("../components/BlogOne"));
@@ -21,7 +23,13 @@ const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
 const HomeOne = () => {
   return (
     <>
-      <Fragment>
+
+
+      <Fragment><SEO
+        titleTemplate="Fajar Grafika Artha Nusantara"
+        description="Percetakan & Digital Printing terbaik." title="Welcome"
+      />
+
         <Suspense fallback={<Preloader />}>
           {/* Search Popup */}
           <SearchPopup />

@@ -1,4 +1,6 @@
 import React, { Fragment, Suspense } from "react";
+import SEO from "../seo";
+
 import Preloader from "../elements/Preloader";
 const Breadcrumb = React.lazy(() => import("../components/Breadcrumb"));
 const ContactInner = React.lazy(() => import("../components/ContactInner"));
@@ -10,8 +12,12 @@ const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
 const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
 const Contact = () => {
   return (
-    <>
-      <Fragment>
+    <> 
+
+      <Fragment> <SEO title="Contact Us"
+      titleTemplate="Fajar Grafika Artha Nusantara"
+      description="Plupuh, Sragen, Jawa Tengah, Indonesia"
+    />
         <Suspense fallback={<Preloader />}>
           {/* Search Popup */}
           <SearchPopup />
