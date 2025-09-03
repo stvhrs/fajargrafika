@@ -5,8 +5,8 @@ import { setActiveSort } from "./func/product";
 const ShopTag = ({ tags, getSortParams }) => {
   return (
     <div className="sidebar-widget mt-30">
-      <h4 className="pro-sidebar-title">Tag </h4>
-      <div className="sidebar-widget-tag mt-10">
+      <h4 className="pro-sidebar-title">Mapel </h4>
+      <div className="sidebar-widget-tag mt-10 mb-30">
         {tags ? (
           <ul>
             {tags.map((tag, key) => {

@@ -17,7 +17,7 @@ const Product = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate={product.name}
+        titleTemplate={product.name}canonical={pathname}
         description={product.fullDescription}
       />
 

@@ -21,7 +21,7 @@ const ShopTopFilter = ({ products, getSortParams }) => {
           {/* Product Filter */}
           <div className="col-md-3 col-sm-6 col-xs-12 mb-30">
             <div className="product-filter">
-              <h5>Categories</h5>
+              <h5>Jenjang</h5>
               {uniqueCategories ? (
                 <ul>
                   {uniqueCategories.map((category, key) => {
@@ -101,7 +101,7 @@ const ShopTopFilter = ({ products, getSortParams }) => {
           {/* Product Filter */}
           <div className="col-md-3 col-sm-6 col-xs-12 mb-30">
             <div className="product-filter product-filter--tag">
-              <h5>Tag</h5>
+              <h5>Mapel</h5>
               {uniqueTags ? (
                 <ul>
                   {uniqueTags.map((tag, key) => {

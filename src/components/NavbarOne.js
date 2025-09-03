@@ -171,79 +171,23 @@ const NavbarOne = () => {
               id='fajargrafika_main_menu'
             >
               <ul className='navbar-nav menu-open'>
-                <li className='menu-item-has-children current-menu-item'>
+               <li>
                   <Link to='#'>Home</Link>
-                  <ul className='sub-menu'>
-                    <li>
-                      <Link to='/'>Home 01</Link>
-                    </li>
-                    <li>
-                      <Link to='/katalog-produk'>Home 02</Link>
-                    </li>
-                    <li>
-                      <Link to='/home-3'>Home 03</Link>
-                    </li>
-                    <li>
-                      <Link to='/home-4'>Home 04</Link>
-                    </li>
-                    <li>
-                      <Link to='/home-5'>Home 05</Link>
-                    </li>
-                  </ul>
                 </li>
                 <li>
-                  <Link to='/about'>About Us</Link>
+                  <Link to='/katalog'>Katalog</Link>
                 </li>
                 <li className='menu-item-has-children'>
                   <Link to='#'>Services</Link>
-                  <ul className='sub-menu'>
-                    <li>
-                      <Link to='/service'>Service</Link>
-                    </li>
-                    <li>
-                      <Link to='/service-details'>Service Details Page</Link>
-                    </li>
-                  </ul>
+                
                 </li>
                 <li className='menu-item-has-children'>
                   <Link to='#'>Pages</Link>
-                  <ul className='sub-menu'>
-                    <li>
-                      <Link to='/about'>About Us</Link>
-                    </li>
-                    <li>
-                      <Link to='/service'>Service Page</Link>
-                    </li>
-                    <li>
-                      <Link to='/service-details'>Service Details Page</Link>
-                    </li>
-                    <li>
-                      <Link to='/blog'>Blog Page</Link>
-                    </li>
-                    <li>
-                      <Link to='/blog-details'>Blog Details</Link>
-                    </li>
-                    <li>
-                      <Link to='/pricing'>Pricing</Link>
-                    </li>
-                    <li>
-                      <Link to='/faq'>FAQ</Link>
-                    </li>
-                    <li>
-                      <Link to='/contact'>Contact</Link>
-                    </li>
-                  </ul>
+              
                 </li>
                 <li className='menu-item-has-children'>
                   <Link to='#'>Blog</Link>
-                  <ul className='sub-menu'>
-                    <li>
-                      <Link to='/blog'>Blog</Link>
-                    </li>
-                    <li>
-                      <Link to='/blog-details'>Blog Details</Link>
-                    </li>
-                  </ul>
+                
                 </li>
                 <li>
                   <Link to='/contact'>Contact Us</Link>

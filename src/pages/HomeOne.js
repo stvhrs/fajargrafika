@@ -1,4 +1,4 @@
-import React, { Fragment, Suspense ,useEffect} from "react";
+import React, { Fragment, Suspense, useEffect } from "react";
 import Preloader from "../elements/Preloader";
 import SEO from "../seo";
 
@@ -23,7 +23,7 @@ const WhyChooseUsOne = React.lazy(() => import("../components/WhyChooseUsOne"));
 const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
 
 const HomeOne = () => {
-  
+
   return (
     <>
 

@@ -6,8 +6,6 @@ import { useDispatch } from "react-redux";
 
 import { getDiscountPrice } from "./func/product";
 import ProductModal from "./ProductModal";
-import { addToCart } from "../../redux/stateSlice/cart-slice";
-import { addToWishlist } from "../../redux/stateSlice/wishlist-slice";
 
 const ProductGridSingle = ({
   product,
@@ -19,9 +17,9 @@ const ProductGridSingle = ({
 }) => {
   const [modalShow, setModalShow] = useState(false);
   const discountedPrice = getDiscountPrice(product.price, product.discount);
-  const finalProductPrice = +(product.price * currency.currencyRate).toFixed(2);
+  const finalProductPrice = +(product.price * 1).toFixed(2);
   const finalDiscountedPrice = +(
-    discountedPrice * currency.currencyRate
+    discountedPrice * 1
   ).toFixed(2);
   const dispatch = useDispatch();
 
@@ -29,17 +27,17 @@ const ProductGridSingle = ({
     <Fragment>
       <div className={clsx("product-wrap", spaceBottomClass)}>
         <div className="product-img">
-          <Link to={process.env.PUBLIC_URL + "/Product/" + product.id}>
+          <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
             <img
               className="default-img"
               src={process.env.PUBLIC_URL + product.image[0]}
-              alt=""
+              alt={product.image[0]}
             />
             {product.image.length > 1 ? (
               <img
                 className="hover-img"
                 src={process.env.PUBLIC_URL + product.image[1]}
-                alt=""
+                alt={product.image[0]}
               />
             ) : (
               ""
@@ -84,7 +82,7 @@ const ProductGridSingle = ({
                   Buy now{" "}
                 </a>
               ) : product.variation && product.variation.length >= 1 ? (
-                <Link to={`${process.env.PUBLIC_URL}/Product/${product.id}`}>
+                <Link to={`${process.env.PUBLIC_URL}/katalog/${product.id}`}>
                   Select Option
                 </Link>
               ) : product.stock && product.stock > 0 ? (
@@ -121,7 +119,7 @@ const ProductGridSingle = ({
         </div>
         <div className="product-content text-center">
           <h3>
-            <Link to={process.env.PUBLIC_URL + "/Product/" + product.id}>
+            <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
               {product.name}
             </Link>
           </h3>
@@ -135,13 +133,13 @@ const ProductGridSingle = ({
           <div className="product-price">
             {discountedPrice !== null ? (
               <Fragment>
-                <span>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
+                <span>{"Rp" + finalDiscountedPrice}</span>{" "}
                 <span className="old">
-                  {currency.currencySymbol + finalProductPrice}
+                  {"Rp" + finalProductPrice}
                 </span>
               </Fragment>
             ) : (
-              <span>{currency.currencySymbol + finalProductPrice} </span>
+              <span>{"Rp" + finalProductPrice} </span>
             )}
           </div>
         </div>
@@ -152,11 +150,11 @@ const ProductGridSingle = ({
         onHide={() => setModalShow(false)}
         product={product}
         currency={currency}
-        discountedPrice={discountedPrice}
-        finalProductPrice={finalProductPrice}
-        finalDiscountedPrice={finalDiscountedPrice}
-        wishlistItem={wishlistItem}
-        compareItem={compareItem}
+        discountedPrice={123}
+        finalProductPrice={123}
+        finalDiscountedPrice={123}
+         wishlistItem={wishlistItem}
+         compareItem={compareItem}
       />
     </Fragment>
   );

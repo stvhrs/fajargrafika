@@ -18,9 +18,9 @@ const ProductGridListSingle = ({
 }) => {
   const [modalShow, setModalShow] = useState(false);
   const discountedPrice = getDiscountPrice(product.price, product.discount);
-  const finalProductPrice = +(product.price * currency.currencyRate).toFixed(2);
+  const finalProductPrice = +(product.price * 1).toFixed(2);
   const finalDiscountedPrice = +(
-    discountedPrice * currency.currencyRate
+    discountedPrice * 1
   ).toFixed(2);
   const dispatch = useDispatch();
 
@@ -28,7 +28,7 @@ const ProductGridListSingle = ({
     <Fragment>
         <div className={clsx("product-wrap", spaceBottomClass)}>
           <div className="product-img">
-            <Link to={process.env.PUBLIC_URL + "/katalog-produk/" + product.id}>
+            <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
               <img
                 className="default-img"
                 src={process.env.PUBLIC_URL + product.image[0]}
@@ -83,7 +83,7 @@ const ProductGridListSingle = ({
                     Buy now{" "}
                   </a>
                 ) : product.variation && product.variation.length >= 1 ? (
-                  <Link to={`${process.env.PUBLIC_URL}/katalog-produk/${product.id}`}>
+                  <Link to={`${process.env.PUBLIC_URL}/katalog/${product.id}`}>
                     Select Option
                   </Link>
                 ) : product.stock && product.stock > 0 ? (
@@ -120,7 +120,7 @@ const ProductGridListSingle = ({
           </div>
           <div className="product-content text-center">
             <h3>
-              <Link to={process.env.PUBLIC_URL + "/katalog-produk/" + product.id}>
+              <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
                 {product.name}
               </Link>
             </h3>
@@ -134,13 +134,13 @@ const ProductGridListSingle = ({
             <div className="product-price">
               {discountedPrice !== null ? (
                 <Fragment>
-                  <span>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
+                  <span>{"Rp " + finalDiscountedPrice}</span>{" "}
                   <span className="old">
-                    {currency.currencySymbol + finalProductPrice}
+                    {"Rp " + finalProductPrice}
                   </span>
                 </Fragment>
               ) : (
-                <span>{currency.currencySymbol + finalProductPrice} </span>
+                <span>{"Rp " + finalProductPrice} </span>
               )}
             </div>
           </div>
@@ -150,7 +150,7 @@ const ProductGridListSingle = ({
             <div className="col-xl-4 col-md-5 col-sm-6">
               <div className="product-list-image-wrap">
                 <div className="product-img">
-                  <Link to={process.env.PUBLIC_URL + "/katalog-produk/" + product.id}>
+                  <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
                     <img
                       className="default-img img-fluid"
                       src={process.env.PUBLIC_URL + product.image[0]}
@@ -184,7 +184,7 @@ const ProductGridListSingle = ({
             <div className="col-xl-8 col-md-7 col-sm-6">
               <div className="shop-list-content">
                 <h3>
-                  <Link to={process.env.PUBLIC_URL + "/katalog-produk/" + product.id}>
+                  <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
                     {product.name}
                   </Link>
                 </h3>
@@ -192,14 +192,14 @@ const ProductGridListSingle = ({
                   {discountedPrice !== null ? (
                     <Fragment>
                       <span>
-                        {currency.currencySymbol + finalDiscountedPrice}
+                        {"Rp " + finalDiscountedPrice}
                       </span>{" "}
                       <span className="old">
-                        {currency.currencySymbol + finalProductPrice}
+                        {"Rp " + finalProductPrice}
                       </span>
                     </Fragment>
                   ) : (
-                    <span>{currency.currencySymbol + finalProductPrice} </span>
+                    <span>{"Rp " + finalProductPrice} </span>
                   )}
                 </div>
                 {product.rating && product.rating > 0 ? (
@@ -230,7 +230,7 @@ const ProductGridListSingle = ({
                       </a>
                     ) : product.variation && product.variation.length >= 1 ? (
                       <Link
-                        to={`${process.env.PUBLIC_URL}/katalog-produk/${product.id}`}
+                        to={`${process.env.PUBLIC_URL}/katalog/${product.id}`}
                       >
                         Select Option
                       </Link>

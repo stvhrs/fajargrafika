@@ -237,4 +237,3 @@ export const toggleShopTopFilter = e => {
   }
   e.currentTarget.classList.toggle("active");
 };
-

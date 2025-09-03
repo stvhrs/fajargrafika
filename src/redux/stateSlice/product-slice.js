@@ -1,9 +1,10 @@
+import products from "./products.json";
 const { createSlice } = require('@reduxjs/toolkit');
 
 const productSlice = createSlice({
     name: 'product',
     initialState: {
-        products: [],
+        products: products,
     },
     reducers: {
         setProducts(state, action) {

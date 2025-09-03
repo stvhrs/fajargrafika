@@ -8,9 +8,9 @@ const ProductGridList = ({
   spaceBottomClass
 }) => {
   const currency = useSelector((state) => state.currency);
-  const { cartItems } = useSelector((state) => state.cart);
-  const { wishlistItems } = useSelector((state) => state.wishlist);
-  const { compareItems } = useSelector((state) => state.compare);
+const cartItems = useSelector((state) => state.cart?.cartItems || []);
+  const { wishlistItems } = useSelector((state) => state.wishlist)||[];
+  const { compareItems } = useSelector((state) => state.compare||[]);
   
   return (
     <Fragment>
@@ -21,19 +21,7 @@ const ProductGridList = ({
               spaceBottomClass={spaceBottomClass}
               product={product}
               currency={currency}
-              cartItem={
-                cartItems.find(cartItem => cartItem.id === product.id)
-              }
-              wishlistItem={
-                wishlistItems.find(
-                  wishlistItem => wishlistItem.id === product.id
-                )
-              }
-              compareItem={
-                compareItems.find(
-                  compareItem => compareItem.id === product.id
-                )
-              }
+             
             />
           </div>
         );

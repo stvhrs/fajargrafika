@@ -2,23 +2,23 @@ import PropTypes from "prop-types";
 import { useSelector } from "react-redux";
 import clsx from "clsx";
 import { getDiscountPrice } from "./func/product";
-import ProductImageGallery from "../Product/ProductImageGallery";
+import ProductImageGallery from "../Shop/ProductImageGallery";
 import ProductDescriptionInfo from "./ProductDescriptionInfo";
 import ProductImageGallerySideThumb from "./ProductImageGallerySideThumb";
-import ProductImageFixed from "../Product/ProductImageFixed";
+import ProductImageFixed from "../Shop/ProductImageFixed";
 
 const ProductImageDescription = ({ spaceTopClass, spaceBottomClass, galleryType, product }) => {
   const currency = useSelector((state) => state.currency);
-  const { cartItems } = useSelector((state) => state.cart);
-  const { wishlistItems } = useSelector((state) => state.wishlist);
-  const { compareItems } = useSelector((state) => state.compare);
-  const wishlistItem = wishlistItems.find(item => item.id === product.id);
-  const compareItem = compareItems.find(item => item.id === product.id);
+const cartItems = useSelector((state) => state.cart?.cartItems || []);
+  const { wishlistItems } = useSelector((state) => state.wishlist)||[];
+  const { compareItems } = useSelector((state) => state.compare||[]);
+  
+
 
   const discountedPrice = getDiscountPrice(product.price, product.discount);
-  const finalProductPrice = +(product.price * currency.currencyRate).toFixed(2);
+  const finalProductPrice = +(product.price * 1).toFixed(2);
   const finalDiscountedPrice = +(
-    discountedPrice * currency.currencyRate
+    discountedPrice * 1
   ).toFixed(2);
 
   return (
@@ -49,8 +49,7 @@ const ProductImageDescription = ({ spaceTopClass, spaceBottomClass, galleryType,
               finalDiscountedPrice={finalDiscountedPrice}
               finalProductPrice={finalProductPrice}
               cartItems={cartItems}
-              wishlistItem={wishlistItem}
-              compareItem={compareItem}
+             
             />
           </div>
         </div>

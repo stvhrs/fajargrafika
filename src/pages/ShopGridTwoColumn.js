@@ -78,7 +78,7 @@ const ShopGridTwoColumn = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Katalog Buku"
+        titleTemplate="Katalog Buku" title="Katalog"
         description="Jelajahi Katalog Buku Lengkap Kami - Temukan Berbagai Genre dan Topik "
       />
       {/* breadcrumb */}
@@ -88,13 +88,10 @@ const ShopGridTwoColumn = () => {
           <NavbarFour />
 
           {/* Navbar One */}
-         <Breadcrumb 
-        pages={[
-          {label: "Home", path: process.env.PUBLIC_URL + "/" },
-          {label: "Shop", path: process.env.PUBLIC_URL + pathname }
-        ]} 
+         <Breadcrumb title={"Katalog Buku"}
+     
       />
-      <div className="shop-area pt-95 pb-100">
+      <div className="shop-area pt-30 pb-100">
         <div className="container">
           <div className="row">
             <div className="col-lg-3">

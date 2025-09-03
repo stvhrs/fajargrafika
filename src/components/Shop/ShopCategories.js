@@ -5,7 +5,7 @@ import { setActiveSort } from "./func/product";
 const ShopCategories = ({ categories, getSortParams }) => {
   return (
     <div className="sidebar-widget">
-      <h4 className="pro-sidebar-title">Categories </h4>
+      <h4 className="pro-sidebar-title">Jenjang </h4>
       <div className="sidebar-widget-list mt-10">
         {categories ? (
           <ul>
@@ -17,7 +17,7 @@ const ShopCategories = ({ categories, getSortParams }) => {
                     setActiveSort(e);
                   }}
                 >
-                  <span className="checkmark" /> All Categories
+                  <span className="checkmark" /> All Jenjang
                 </button>
               </div>
             </li>

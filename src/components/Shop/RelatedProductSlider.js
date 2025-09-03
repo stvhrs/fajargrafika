@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import { useSelector } from "react-redux";
 import clsx from "clsx";
-import Swiper, { SwiperSlide } from "./index";
-import SectionTitle from "../../components/section-title/SectionTitle";
+import Swiper, { SwiperSlide } from "./swiper";
+// import SectionTitle from "../../components/section-title/SectionTitle";
 import ProductGridSingle from "./ProductGridSingle";
 import { getProducts } from "./func/product";
 
@@ -31,19 +31,20 @@ const settings = {
 const RelatedProductSlider = ({ spaceBottomClass, category }) => {
   const { products } = useSelector((state) => state.product);
   const currency = useSelector((state) => state.currency);
-  const { cartItems } = useSelector((state) => state.cart);
-  const { wishlistItems } = useSelector((state) => state.wishlist);
-  const { compareItems } = useSelector((state) => state.compare);
+const cartItems = useSelector((state) => state.cart?.cartItems || []);
+  const { wishlistItems } = useSelector((state) => state.wishlist)||[];
+  const { compareItems } = useSelector((state) => state.compare||[]);
+  
   const prods = getProducts(products, category, null, 6);
   
   return (
     <div className={clsx("related-product-area", spaceBottomClass)}>
       <div className="container">
-        <SectionTitle
+        {/* <SectionTitle
           titleText="Related Products"
           positionClass="text-center"
           spaceClass="mb-50"
-        />
+        /> */}
         {prods?.length ? (
           <Swiper options={settings}>
               {prods.map(product => (
@@ -51,19 +52,7 @@ const RelatedProductSlider = ({ spaceBottomClass, category }) => {
                   <ProductGridSingle
                     product={product}
                     currency={currency}
-                    cartItem={
-                      cartItems.find((cartItem) => cartItem.id === product.id)
-                    }
-                    wishlistItem={
-                      wishlistItems.find(
-                        (wishlistItem) => wishlistItem.id === product.id
-                      )
-                    }
-                    compareItem={
-                      compareItems.find(
-                        (compareItem) => compareItem.id === product.id
-                      )
-                    }
+                   
                   />
                 </SwiperSlide>
               ))}
