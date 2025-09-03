@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 
-import { setActiveSort } from "../../helpers/product";
+import { setActiveSort } from "./func/product";
 
 const ShopTag = ({ tags, getSortParams }) => {
   return (
-    <div className="sidebar-widget mt-50">
+    <div className="sidebar-widget mt-30">
       <h4 className="pro-sidebar-title">Tag </h4>
-      <div className="sidebar-widget-tag mt-25">
+      <div className="sidebar-widget-tag mt-10">
         {tags ? (
           <ul>
             {tags.map((tag, key) => {

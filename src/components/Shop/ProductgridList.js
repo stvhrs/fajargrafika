@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Fragment } from "react";
 import { useSelector } from "react-redux";
-import ProductGridListSingle from "../../components/product/ProductGridListSingle";
+import ProductGridListSingle from "./ProductGridListSingle";
 
 const ProductGridList = ({
   products,

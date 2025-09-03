@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import { setActiveLayout } from "../../helpers/product";
+import { setActiveLayout } from "./func/product";
 
 const ShopTopAction = ({
   getLayout,

@@ -1,4 +1,4 @@
-import React, { Fragment, Suspense } from "react";
+import React, { Fragment, Suspense ,useEffect} from "react";
 import Preloader from "../elements/Preloader";
 import SEO from "../seo";
 
@@ -11,6 +11,7 @@ const FeatureOne = React.lazy(() => import("../components/FeatureOne"));
 const FooterBottomOne = React.lazy(() =>
   import("../components/FooterBottomOne")
 );
+
 const FooterOne = React.lazy(() => import("../components/FooterOne"));
 const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
 const PartnerOne = React.lazy(() => import("../components/PartnerOne"));
@@ -20,7 +21,9 @@ const TeamOne = React.lazy(() => import("../components/TeamOne"));
 const TestimonialOne = React.lazy(() => import("../components/TestimonialOne"));
 const WhyChooseUsOne = React.lazy(() => import("../components/WhyChooseUsOne"));
 const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
+
 const HomeOne = () => {
+  
   return (
     <>
 

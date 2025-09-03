@@ -178,7 +178,7 @@ const NavbarOne = () => {
                       <Link to='/'>Home 01</Link>
                     </li>
                     <li>
-                      <Link to='/home-2'>Home 02</Link>
+                      <Link to='/katalog-produk'>Home 02</Link>
                     </li>
                     <li>
                       <Link to='/home-3'>Home 03</Link>

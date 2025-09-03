@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import { setActiveSort } from "../../helpers/product";
+import { setActiveSort } from "./func/product";
 
 const ShopSize = ({ sizes, getSortParams }) => {
   return (

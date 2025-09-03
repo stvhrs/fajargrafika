@@ -1,4 +1,4 @@
- import { HelmetProvider } from "react-helmet-async";
+import { HelmetProvider } from "react-helmet-async";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeOne from "./pages/HomeOne";
@@ -31,27 +31,27 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-   <HelmetProvider>
-    <BrowserRouter>
-      <RouteScrollToTop />
-      <Routes>
-       <Route
-                path={process.env.PUBLIC_URL + "/katalog-produk"}
-                element={<ShopGridTwoColumn/>}
-              />
+    <HelmetProvider>
+      <BrowserRouter>
+        <RouteScrollToTop />
+        <Routes>
+          <Route
+            path={process.env.PUBLIC_URL + "/katalog-produk"}
+            element={<ShopGridTwoColumn />}
+          />
           <Route exact path='/' element={<HomeOne />} />
-        <Route exact path='/about' element={<About />} />
-        <Route exact path='/service' element={<Service />} />
-        <Route exact path='/service-details' element={<ServiceDetails />} />
-        <Route exact path='/blog' element={<Blog />} />
-        <Route exact path='/blog-details' element={<BlogDetails />} />
-        <Route exact path='/pricing' element={<Pricing />} />
-        <Route exact path='/faq' element={<Faq />} />
-        <Route exact path='/contact' element={<Contact />} />
-      </Routes>
-      <ScrollToTop smooth color='#FA4318' />
-    </BrowserRouter>
-     </HelmetProvider>
+          <Route exact path='/about' element={<About />} />
+          <Route exact path='/service' element={<Service />} />
+          <Route exact path='/service-details' element={<ServiceDetails />} />
+          <Route exact path='/blog' element={<Blog />} />
+          <Route exact path='/blog-details' element={<BlogDetails />} />
+          <Route exact path='/pricing' element={<Pricing />} />
+          <Route exact path='/faq' element={<Faq />} />
+          <Route exact path='/contact' element={<Contact />} />
+        </Routes>
+        <ScrollToTop smooth color='#FA4318' />
+      </BrowserRouter>
+    </HelmetProvider>
   );
 }
 

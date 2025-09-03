@@ -1,13 +1,37 @@
-import { Fragment, useState, useEffect } from "react";
+import { Fragment,Suspense, useState, useEffect } from "react";
 import Paginator from "react-hooks-paginator"; 
+import Preloader from "../elements/Preloader";
+
 import { useSelector } from "react-redux";
 import { useLocation } from "react-router-dom";
 import SEO from "../seo";
-import Breadcrumb from "../components/Shop/Breadcrumb";
 import ShopSidebar from "../components/Shop/ShopSidebar";
 import ShopTopbar from "../components/Shop/ShopTopbar";
 import ShopProducts from "../components/Shop/ShopProducts";
-import { getSortedProducts } from "../helpers/product";
+import React from "react";
+
+import { getSortedProducts } from "../components/Shop/func/product";
+//  import "../assets/scss/style.scss";
+import Breadcrumb from "../components/Breadcrumb";
+import NavbarFour from "../backup/NavbarFour";
+const BannerOne = React.lazy(() => import("../components/BannerOne"));
+const AboutOne = React.lazy(() => import("../components/AboutOne"));
+const BlogOne = React.lazy(() => import("../components/BlogOne"));
+const ContactOne = React.lazy(() => import("../components/ContactOne"));
+const CounterOne = React.lazy(() => import("../components/CounterOne"));
+const FeatureOne = React.lazy(() => import("../components/FeatureOne"));
+const FooterBottomOne = React.lazy(() =>
+  import("../components/FooterBottomOne")
+);
+const FooterOne = React.lazy(() => import("../components/FooterOne"));
+const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
+const PartnerOne = React.lazy(() => import("../components/PartnerOne"));
+const PortfolioOne = React.lazy(() => import("../components/PortfolioOne"));
+const ServiceOne = React.lazy(() => import("../components/ServiceOne"));
+const TeamOne = React.lazy(() => import("../components/TeamOne"));
+const TestimonialOne = React.lazy(() => import("../components/TestimonialOne"));
+const WhyChooseUsOne = React.lazy(() => import("../components/WhyChooseUsOne"));
+const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
 const ShopGridTwoColumn = () => {
   const [layout, setLayout] = useState("grid two-column");
   const [sortType, setSortType] = useState("");
@@ -19,7 +43,9 @@ const ShopGridTwoColumn = () => {
   const [currentData, setCurrentData] = useState([]);
   const [sortedProducts, setSortedProducts] = useState([]);
   const { products } = useSelector((state) => state.product);
-
+ useEffect(() => {
+    import("../assets/scss/style.scss"); // dynamically load CSS
+  }, []);
   const pageLimit = 16;
   let { pathname } = useLocation();
 
@@ -55,58 +81,58 @@ const ShopGridTwoColumn = () => {
         titleTemplate="Katalog Buku"
         description="Jelajahi Katalog Buku Lengkap Kami - Temukan Berbagai Genre dan Topik "
       />
+      {/* breadcrumb */}
+         <Suspense fallback={<Preloader />}>
+          {/* Search Popup */}
+          <SearchPopup />
+          <NavbarFour />
 
-     
-        {/* breadcrumb */}
-        <Breadcrumb 
-          pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Shop", path: process.env.PUBLIC_URL + pathname }
-          ]} 
-        />
-
-        <div className="shop-area pt-95 pb-100">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-3">
-                {/* shop sidebar */}
-                <ShopSidebar
-                  products={products}
-                  getSortParams={getSortParams}
-                  sideSpaceClass="mr-30"
+          {/* Navbar One */}
+         <Breadcrumb 
+        pages={[
+          {label: "Home", path: process.env.PUBLIC_URL + "/" },
+          {label: "Shop", path: process.env.PUBLIC_URL + pathname }
+        ]} 
+      />
+      <div className="shop-area pt-95 pb-100">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3">
+              {/* shop sidebar */}
+              <ShopSidebar
+                products={products}
+                getSortParams={getSortParams}
+                sideSpaceClass="mr-30"
+              />
+            </div>
+            <div className="col-lg-9">
+              {/* shop topbar default */}
+              <ShopTopbar
+                getLayout={getLayout}
+                getFilterSortParams={getFilterSortParams}
+                productCount={products.length}
+                sortedProductCount={currentData.length}
+              />
+              {/* shop page content default */}
+              <ShopProducts layout={layout} products={currentData} />
+              {/* shop product pagination */}
+              <div className="pro-pagination-style text-center mt-30">
+                <Paginator
+                  totalRecords={sortedProducts.length}
+                  pageLimit={pageLimit}
+                  pageNeighbours={2}
+                  setOffset={setOffset}
+                  currentPage={currentPage}
+                  setCurrentPage={setCurrentPage}
+                  pageContainerClass="mb-0 mt-0"
+                  pagePrevText="«"
+                  pageNextText="»"
                 />
-              </div>
-              <div className="col-lg-9">
-                {/* shop topbar default */}
-                <ShopTopbar
-                  getLayout={getLayout}
-                  getFilterSortParams={getFilterSortParams}
-                  productCount={products.length}
-                  sortedProductCount={currentData.length}
-                />
-
-                {/* shop page content default */}
-                <ShopProducts layout={layout} products={currentData} />
-
-                {/* shop product pagination */}
-                <div className="pro-pagination-style text-center mt-30">
-                  <Paginator
-                    totalRecords={sortedProducts.length}
-                    pageLimit={pageLimit}
-                    pageNeighbours={2}
-                    setOffset={setOffset}
-                    currentPage={currentPage}
-                    setCurrentPage={setCurrentPage}
-                    pageContainerClass="mb-0 mt-0"
-                    pagePrevText="«"
-                    pageNextText="»"
-                  />
-                </div>
               </div>
             </div>
           </div>
         </div>
-   
+      </div>  </Suspense>
     </Fragment>
   );
 };
