@@ -1,60 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
   <meta charset="utf-8" />
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-  <title>Fajar Grafika - Percetakaan dan Penerbit </title>
+  <title>PT. Fajar Grafika Artha Nusantara</title>
+  <meta name="description" content="Fajar Grafika — Percetakan dan Penerbit. Layanan cetak buku, undangan, kemasan, dan promosi dengan kualitas terbaik." />
+  <link rel="canonical" href="https://www.fajargrafika.com/" />
+
+  <!-- ✅ Favicon (ICO universal) -->
+  <link rel="icon" href="https://www.fajargrafika.com/favicon.ico" type="image/x-icon" />
+
+  <!-- ✅ Manifest (optional for PWA, biarkan kalau pakai CRA build) -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <!-- ✅ Open Graph (Social Media Share) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.fajargrafika.com/" />
+  <meta property="og:title" content="Fajar Grafika - Percetakan dan Penerbit" />
+  <meta property="og:description" content="Layanan cetak & penerbitan profesional: buku, undangan, kemasan, promosi." />
+  <meta property="og:image" content="https://www.fajargrafika.com/og-cover.jpg" />
+  <meta name="google-site-verification" content="f4nzcUKuke5EAdVTfSDtmjEwvBRIeqILj5duX31sNJ4" />
+
+  <!-- ✅ Structured Data (Organization + Logo) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Fajar Grafika",
+    "url":"https://www.fajargrafika.com",
+    "logo":"https://www.fajargrafika.com/favicon.ico"
+  }
+  </script>
 
   <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KSMSWH7');</script>
+  <script>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+    var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-KSMSWH7');
+  </script>
   <!-- End Google Tag Manager -->
 </head>
 
 <body>
-
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSMSWH7" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSMSWH7"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <noscript>You need to enable JavaScript to run this app.</noscript>
 
+  <noscript>Anda perlu mengaktifkan JavaScript untuk menjalankan aplikasi ini.</noscript>
   <div id="root"></div>
-  <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-
-
 </body>
-
 </html>

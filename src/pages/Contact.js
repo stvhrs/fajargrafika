@@ -12,12 +12,12 @@ const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
 const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
 const Contact = () => {
   return (
-    <> 
+    <>
 
       <Fragment> <SEO title="Contact Us"
-      titleTemplate="Fajar Grafika Artha Nusantara"
-      description="Plupuh, Sragen, Jawa Tengah, Indonesia"
-    />
+        titleTemplate="Hubungi Kami - Fajar Grafika Artha Nusantara"
+        description="Plupuh, Sragen, Jawa Tengah, Indonesia"
+      />
         <Suspense fallback={<Preloader />}>
           {/* Search Popup */}
           <SearchPopup />

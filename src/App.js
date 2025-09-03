@@ -16,6 +16,7 @@ import Pricing from "./pages/Pricing";
 import Faq from "./pages/Faq";
 import Contact from "./pages/Contact";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
+import ShopGridTwoColumn from "./pages/ShopGridTwoColumn";
 // import HomeThree from "./pages/HomeThree";
 // import HomeFour from "./pages/HomeFour";
 // import HomeFive from "./pages/HomeFive";
@@ -34,7 +35,10 @@ function App() {
     <BrowserRouter>
       <RouteScrollToTop />
       <Routes>
-      
+       <Route
+                path={process.env.PUBLIC_URL + "/katalog-produk"}
+                element={<ShopGridTwoColumn/>}
+              />
           <Route exact path='/' element={<HomeOne />} />
         <Route exact path='/about' element={<About />} />
         <Route exact path='/service' element={<Service />} />

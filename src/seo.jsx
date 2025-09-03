@@ -10,6 +10,8 @@ const SEO = ({ title, titleTemplate, description }) => {
                     {title} | {titleTemplate}
                 </title>
                 <meta name="description" content={description} />
+                <meta name="keywords" content="penerbit, percetakan, Fajar Grafika, buku, poster, kalender" />
+                <meta name="author" content="PT. Fajar Grafika Artha Nusantara" />
             </Helmet>
         </HelmetProvider>
     );
@@ -22,9 +24,9 @@ SEO.propTypes = {
 }
 
 SEO.defaultProps = {
-    title: "Casaqeela",
-    titleTemplate: "Product Page",
-    description: "Product page of casaqeela react minimalist eCommerce template.",
+    title: "PT. Fajar Grafika Artha Nusantara",
+    titleTemplate: "Percetakan dan Peneribit",
+    description: "Plupuh, Sragen, Jawa Tengah, Indonesia",
 };
 
 export default SEO;

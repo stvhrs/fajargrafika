@@ -1,5 +1,7 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
+import SEO from "../seo";
+
 const AboutOne = React.lazy(() => import("../components/AboutOne"));
 const Breadcrumb = React.lazy(() => import("../components/Breadcrumb"));
 const CounterOne = React.lazy(() => import("../components/CounterOne"));
@@ -11,13 +13,16 @@ const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
 const PartnerOne = React.lazy(() => import("../components/PartnerOne"));
 const SkillOne = React.lazy(() => import("../components/SkillOne"));
 const TeamOne = React.lazy(() => import("../components/TeamOne"));
-const TestimonialTwo = React.lazy(() => import("../components/TestimonialTwo"));
+const TestimonialTwo = React.lazy(() => import("../backup/TestimonialTwo"));
 const VideoAreaOne = React.lazy(() => import("../components/VideoAreaOne"));
 const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
 const About = () => {
   return (
     <>
-      <Fragment>
+      <Fragment><SEO title="About Us"
+              titleTemplate="Tentang Kami - Fajar Grafika Artha Nusantara"
+              description="Plupuh, Sragen, Jawa Tengah, Indonesia"
+            />
         <Suspense fallback={<Preloader />}>
           {/* Search Popup */}
           <SearchPopup />

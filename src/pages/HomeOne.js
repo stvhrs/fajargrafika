@@ -26,8 +26,8 @@ const HomeOne = () => {
 
 
       <Fragment><SEO
-        titleTemplate="Fajar Grafika Artha Nusantara"
-        description="Percetakan & Digital Printing terbaik." title="Welcome"
+        titleTemplate="Welcome"
+        description="Percetakan & Digital Printing terbaik." title="PT. Fajar Grafika Artha Nusantara"
       />
 
         <Suspense fallback={<Preloader />}>
