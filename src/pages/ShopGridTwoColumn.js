@@ -30,6 +30,7 @@ const PortfolioOne = React.lazy(() => import("../components/PortfolioOne"));
 const ServiceOne = React.lazy(() => import("../components/ServiceOne"));
 const TeamOne = React.lazy(() => import("../components/TeamOne"));
 const TestimonialOne = React.lazy(() => import("../components/TestimonialOne"));
+
 const WhyChooseUsOne = React.lazy(() => import("../components/WhyChooseUsOne"));
 const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
 const ShopGridTwoColumn = () => {
@@ -78,17 +79,17 @@ const ShopGridTwoColumn = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Katalog Buku" title="Katalog"
-        description="Jelajahi Katalog Buku Lengkap Kami - Temukan Berbagai Genre dan Topik "
+        titleTemplate="Buku" title="Katalog"
+        description="Jelajahi KATALOG Lengkap Kami - Temukan Berbagai Genre dan Topik " canonical="https://www.fajargrafika.com/katalog"
       />
       {/* breadcrumb */}
          <Suspense fallback={<Preloader />}>
           {/* Search Popup */}
           <SearchPopup />
-          <NavbarFour />
+          <NavbarOne />
 
           {/* Navbar One */}
-         <Breadcrumb title={"Katalog Buku"}
+         <Breadcrumb title={"KATALOG"}
      
       />
       <div className="shop-area pt-30 pb-100">

@@ -8,7 +8,6 @@ import { getProductCartQuantity } from "./func/product";
 const ProductDescriptionInfo = ({
   product,
   discountedPrice,
-  currency,
   finalDiscountedPrice,
   finalProductPrice,
   cartItems,
@@ -16,23 +15,7 @@ const ProductDescriptionInfo = ({
   compareItem,
 }) => {
   const dispatch = useDispatch();
-  const [selectedProductColor, setSelectedProductColor] = useState(
-    product.variation ? product.variation[0].color : ""
-  );
-  const [selectedProductSize, setSelectedProductSize] = useState(
-    product.variation ? product.variation[0].size[0].name : ""
-  );
-  const [productStock, setProductStock] = useState(
-    product.variation ? product.variation[0].size[0].stock : product.stock
-  );
-  const [quantityCount, setQuantityCount] = useState(1);
-
-  const productCartQty = getProductCartQuantity(
-    cartItems,
-    product,
-    selectedProductColor,
-    selectedProductSize
-  );
+  
 
   return (
     <div className="product-details-content ml-70">
@@ -77,15 +60,8 @@ const ProductDescriptionInfo = ({
                       type="radio"
                       value={single.color}
                       name="product-color"
-                      checked={
-                        single.color === selectedProductColor ? "checked" : ""
-                      }
-                      onChange={() => {
-                        setSelectedProductColor(single.color);
-                        setSelectedProductSize(single.size[0].name);
-                        setProductStock(single.size[0].stock);
-                        setQuantityCount(1);
-                      }}
+                    
+                   
                     />
                     <span className="checkmark"></span>
                   </label>
@@ -93,40 +69,7 @@ const ProductDescriptionInfo = ({
               })}
             </div>
           </div>
-          <div className="pro-details-size">
-            <span>Size</span>
-            <div className="pro-details-size-content">
-              {product.variation &&
-                product.variation.map(single => {
-                  return single.color === selectedProductColor
-                    ? single.size.map((singleSize, key) => {
-                        return (
-                          <label
-                            className={`pro-details-size-content--single`}
-                            key={key}
-                          >
-                            <input
-                              type="radio"
-                              value={singleSize.name}
-                              checked={
-                                singleSize.name === selectedProductSize
-                                  ? "checked"
-                                  : ""
-                              }
-                              onChange={() => {
-                                setSelectedProductSize(singleSize.name);
-                                setProductStock(singleSize.stock);
-                                setQuantityCount(1);
-                              }}
-                            />
-                            <span className="size-name">{singleSize.name}</span>
-                          </label>
-                        );
-                      })
-                    : "";
-                })}
-            </div>
-          </div>
+          
         </div>
       ) : (
         ""
@@ -146,45 +89,17 @@ const ProductDescriptionInfo = ({
       ) : (
         <div className="pro-details-quality">
           <div className="cart-plus-minus">
-            <button
-              onClick={() =>
-                setQuantityCount(quantityCount > 1 ? quantityCount - 1 : 1)
-              }
-              className="dec qtybutton"
-            >
-              -
-            </button>
+            
             <input
               className="cart-plus-minus-box"
               type="text"
-              value={quantityCount}
+            
               readOnly
             />
-            <button
-              onClick={() =>
-                setQuantityCount(
-                  quantityCount < productStock - productCartQty
-                    ? quantityCount + 1
-                    : quantityCount
-                )
-              }
-              className="inc qtybutton"
-            >
-              +
-            </button>
+           
           </div>
           <div className="pro-details-cart btn-hover">
-            {productStock && productStock > 0 ? (
-              <button
-               
-                disabled={productCartQty >= productStock}
-              >
-                {" "}
-                Add To Cart{" "}
-              </button>
-            ) : (
-              <button disabled>Out of Stock</button>
-            )}
+            
           </div>
           <div className="pro-details-wishlist">
             <button

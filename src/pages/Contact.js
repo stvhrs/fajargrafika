@@ -16,7 +16,7 @@ const Contact = () => {
 
       <Fragment> <SEO title="Contact Us"
         titleTemplate="Hubungi Kami - Fajar Grafika Artha Nusantara"
-        description="Plupuh, Sragen, Jawa Tengah, Indonesia"
+        description="Plupuh, Sragen, Jawa Tengah, Indonesia"canonical="https://www.fajargrafika.com/contact"
       />
         <Suspense fallback={<Preloader />}>
           {/* Search Popup */}

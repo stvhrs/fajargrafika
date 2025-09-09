@@ -161,9 +161,7 @@ const ProductGridSingle = ({
 };
 
 ProductGridSingle.propTypes = {
-  cartItem: PropTypes.shape({}),
-  compareItem: PropTypes.shape({}),
-  wishlistItem: PropTypes.shape({}),
+
   currency: PropTypes.shape({}),
   product: PropTypes.shape({}),
   sliderClassName: PropTypes.string,

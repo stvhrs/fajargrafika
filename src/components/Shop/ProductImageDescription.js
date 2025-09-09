@@ -7,19 +7,30 @@ import ProductDescriptionInfo from "./ProductDescriptionInfo";
 import ProductImageGallerySideThumb from "./ProductImageGallerySideThumb";
 import ProductImageFixed from "../Shop/ProductImageFixed";
 
-const ProductImageDescription = ({ spaceTopClass, spaceBottomClass, galleryType, product }) => {
-  const currency = useSelector((state) => state.currency);
-const cartItems = useSelector((state) => state.cart?.cartItems || []);
-  const { wishlistItems } = useSelector((state) => state.wishlist)||[];
-  const { compareItems } = useSelector((state) => state.compare||[]);
-  
+const ProductImageDescription = ({
+  spaceTopClass,
+  spaceBottomClass,
+  galleryType,
+  product
+}) => {
+  // ✅ aman dari undefined slice
+  const currency = useSelector((state) => state?.currency ?? {});
 
 
-  const discountedPrice = getDiscountPrice(product.price, product.discount);
-  const finalProductPrice = +(product.price * 1).toFixed(2);
-  const finalDiscountedPrice = +(
-    discountedPrice * 1
-  ).toFixed(2);
+  // ✅ guard nilai product/price/discount
+  const price = Number(product?.price ?? 0);
+  const hasDiscount = Number.isFinite(price) && product?.discount != null;
+
+  const discountedPrice = hasDiscount
+    ? getDiscountPrice(price, product.discount)
+    : null;
+
+  const finalProductPrice = Number.isFinite(price)
+    ? +(price * 1).toFixed(2)
+    : 0;
+
+  const finalDiscountedPrice =
+    discountedPrice != null ? +(discountedPrice * 1).toFixed(2) : null;
 
   return (
     <div className={clsx("shop-area", spaceTopClass, spaceBottomClass)}>
@@ -27,19 +38,11 @@ const cartItems = useSelector((state) => state.cart?.cartItems || []);
         <div className="row">
           <div className="col-lg-6 col-md-6">
             {/* product image gallery */}
-            {galleryType === "leftThumb" ? (
-              <ProductImageGallerySideThumb
-                product={product}
-                thumbPosition="left"
-              />
-            ) : galleryType === "rightThumb" ? (
-              <ProductImageGallerySideThumb product={product} />
-            ) : galleryType === "fixedImage" ? (
+           
               <ProductImageFixed product={product} />
-            ) : (
-              <ProductImageGallery product={product} />
-            )}
+            
           </div>
+
           <div className="col-lg-6 col-md-6">
             {/* product description info */}
             <ProductDescriptionInfo
@@ -48,8 +51,7 @@ const cartItems = useSelector((state) => state.cart?.cartItems || []);
               currency={currency}
               finalDiscountedPrice={finalDiscountedPrice}
               finalProductPrice={finalProductPrice}
-              cartItems={cartItems}
-             
+
             />
           </div>
         </div>
@@ -60,7 +62,10 @@ const cartItems = useSelector((state) => state.cart?.cartItems || []);
 
 ProductImageDescription.propTypes = {
   galleryType: PropTypes.string,
-  product: PropTypes.shape({}),
+  product: PropTypes.shape({
+    price: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    discount: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  }),
   spaceBottomClass: PropTypes.string,
   spaceTopClass: PropTypes.string,
 };

@@ -45,13 +45,7 @@ function App() {
             element={<ShopGridTwoColumn />}
           />
           <Route exact path='/' element={<HomeOne />} />
-          {/* <Route exact path='/about' element={<About />} />
-          <Route exact path='/service' element={<Service />} />
-          <Route exact path='/service-details' element={<ServiceDetails />} />
-          <Route exact path='/blog' element={<Blog />} />
-          <Route exact path='/blog-details' element={<BlogDetails />} />
-          <Route exact path='/pricing' element={<Pricing />} />
-          <Route exact path='/faq' element={<Faq />} /> */}
+         
           <Route exact path='/contact' element={<Contact />} />
         </Routes>
         <ScrollToTop smooth color='#FA4318' />

@@ -1,6 +1,7 @@
 import React, { Fragment, Suspense, useEffect } from "react";
 import Preloader from "../elements/Preloader";
-import SEO from "../seo";
+import SEO, { ldWebsite, ldOrganization } from "../seo";
+// import "./../assets/index.scss";
 
 const BannerOne = React.lazy(() => import("../components/BannerOne"));
 const AboutOne = React.lazy(() => import("../components/AboutOne"));
@@ -23,12 +24,27 @@ const WhyChooseUsOne = React.lazy(() => import("../components/WhyChooseUsOne"));
 const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
 
 const HomeOne = () => {
+    const siteUrl = "https://www.fajargrafika.com/";
 
+  //  useEffect(() => {
+  //     import("./../assets/index.scss"); // dynamically load CSS
+  //   }, []);
   return (
     <>
 
 
-      <Fragment><SEO
+      <Fragment><SEO  jsonLd={[
+          ldWebsite({
+            name: "PT Fajar Grafika",
+            alternateName: "PT. Fajar Grafika Artha Nusantara",
+            url: siteUrl,
+          }),
+          ldOrganization({
+            name: "PT. Fajar Grafika Artha Nusantara",
+            url: siteUrl,
+            logo: `${siteUrl}assets/img/favicon.png` // Ganti dengan path logo Anda
+          })
+        ]}
         titleTemplate="Welcome"
         description="Percetakan & Digital Printing terbaik." title="PT. Fajar Grafika Artha Nusantara"
       />
@@ -44,43 +60,26 @@ const HomeOne = () => {
           <BannerOne />
 
           {/* Feature One */}
-          <FeatureOne />
-
-          {/* About One */}
-          <AboutOne />
-
-          {/* Service One */}
+          {/* <FeatureOne /> */}
           <ServiceOne />
 
+          {/* About One */}
+          {/* <AboutOne /> */}
+
+          {/* Service One */}
+
           {/* Why Choose Us One */}
-          <WhyChooseUsOne />
+          {/* <WhyChooseUsOne /> */}
 
           {/* Counter One */}
 
-          <CounterOne />
+          {/* <CounterOne /> */}
 
           {/* Team One */}
-          <TeamOne />
+          {/* <TeamOne /> */}
 
           {/* Contact One */}
-          <div
-            className='call-to-contact-area pd-top-240'
-            style={{ background: "#F9F9F9" }}
-          >
-            <ContactOne />
-          </div>
 
-          {/* Testimonial One */}
-          <TestimonialOne />
-
-          {/* Portfolio One */}
-          <PortfolioOne />
-
-          {/* Blog One */}
-          <BlogOne />
-
-          {/* Partner One */}
-          <PartnerOne />
 
           {/* Footer One */}
           <FooterOne />

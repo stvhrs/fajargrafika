@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useSelector } from "react-redux";
 import clsx from "clsx";
-import Swiper, { SwiperSlide } from "./swiper";
+import Swiper, { SwiperSlide } from "./swiper/swiper";
 // import SectionTitle from "../../components/section-title/SectionTitle";
 import ProductGridSingle from "./ProductGridSingle";
 import { getProducts } from "./func/product";

@@ -11,13 +11,12 @@ const PRODUCTS_JSON = path.resolve(__dirname, "../public/assets/products.json");
 const OUT_DIR = path.resolve(__dirname, "../public");
 
 // If product pages live under /produk/[slug]/ set to "/produk/"
-const PRODUCT_PREFIX = "/"; 
+const PRODUCT_PREFIX = "/katalog/"; 
 
 const STATIC_PATHS = [
   { loc: "/", priority: 1.0, changefreq: "weekly" },
-  { loc: "/produk/", priority: 0.9, changefreq: "weekly" },
-  { loc: "/tentang-kami/", priority: 0.7, changefreq: "monthly" },
-  { loc: "/kontak/", priority: 0.7, changefreq: "monthly" },
+  { loc: "/katalog/", priority: 0.9, changefreq: "weekly" },
+  { loc: "/contact/", priority: 0.7, changefreq: "monthly" },
 ];
 
 /** ===== UTIL ===== */
