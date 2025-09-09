@@ -1,437 +1,616 @@
 [
   {
-    "id": "elkapede-bahasa-indonesia-VII",
+    "id": "elkapede-bahasa-indonesia-7",
     "sku": "asdf132",
-    "name": "Elkapede Bahasa Indonesia VII",
+    "name": "Elkapede Bahasa Indonesia 7",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/1.png", "/assets/1.png"],
+    "image": [
+      "/assets/1.png",
+      "/assets/1.png"
+    ],
     "shortDescription": "Penulis: Johan Wahyudi, S.Pd.,M.Pd.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 17.6 cm x 25 cm"
   },
   {
-    "id": "elkapede-bahasa-inggris-VII",
+    "id": "elkapede-bahasa-inggris-7",
     "sku": "asdf132",
-    "name": "Elkapede Bahasa Inggris VII",
+    "name": "Elkapede Bahasa Inggris 7",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/2.png", "/assets/2.png"],
+    "image": [
+      "/assets/2.png",
+      "/assets/2.png"
+    ],
     "shortDescription": "Penulis: Achmad Dzaky Mubarroq, S. Pd., Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 17.6 cm x 25 cm"
   },
   {
-    "id": "elkapede-Matematika-VII",
+    "id": "elkapede-matematika-7",
     "sku": "asdf132",
-    "name": "Elkapede Matematika VII",
+    "name": "Elkapede Matematika 7",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/3.png", "/assets/3.png"],
+    "image": [
+      "/assets/3.png",
+      "/assets/3.png"
+    ],
     "shortDescription": "Penulis: Malik Rosyid Ridho, M.Pd.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 17.6 cm x 25 cm"
   },
   {
-    "id": "elkapede-ilmu-pengetahuan-alam-VII",
+    "id": "elkapede-ilmu-pengetahuan-alam-7",
     "sku": "asdf132",
-    "name": "Elkapede Ilmu Pengetahuan Alam VII",
+    "name": "Elkapede Ilmu Pengetahuan Alam 7",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/4.png", "/assets/4.png"],
+    "image": [
+      "/assets/4.png",
+      "/assets/4.png"
+    ],
     "shortDescription": "Penulis: Ardiana Frida Sylvia, S.Si<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 17.6 cm x 25 cm"
   },
   {
-    "id": "elkapede-ilmu-pengetahuan-sosial-VII",
+    "id": "elkapede-ilmu-pengetahuan-sosial-7",
     "sku": "asdf132",
-    "name": "Elkapede Ilmu Pengetahuan Sosial VII",
+    "name": "Elkapede Ilmu Pengetahuan Sosial 7",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/5.png", "/assets/5b.png"],
+    "image": [
+      "/assets/5.png",
+      "/assets/5b.png"
+    ],
     "shortDescription": "Penulis: Ahmad Syahdatul Kahfi, S.Sos<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 17.6 cm x 25 cm"
   },
   {
-    "id": "elkapede-matematika-VI",
+    "id": "elkapede-matematika-6",
     "sku": "mat6132",
-    "name": "Elkapede Matematika VI",
+    "name": "Elkapede Matematika 6",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/MAT6.png"],
+    "image": [
+      "/assets/MAT6.png"
+    ],
     "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-Matematika-V",
+    "id": "elkapede-matematika-5",
     "sku": "mat5132",
-    "name": "Elkapede Matematika V",
+    "name": "Elkapede Matematika 5",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/MAT5.png"],
+    "image": [
+      "/assets/MAT5.png"
+    ],
     "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-Matematika-IV",
+    "id": "elkapede-matematika-4",
     "sku": "mat4132",
-    "name": "Elkapede Matematika IV",
+    "name": "Elkapede Matematika 4",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/MAT4.png"],
+    "image": [
+      "/assets/MAT4.png"
+    ],
     "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-Matematika-III",
+    "id": "elkapede-matematika-3",
     "sku": "mat3132",
-    "name": "Elkapede Matematika III",
+    "name": "Elkapede Matematika 3",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/MAT3.png"],
+    "image": [
+      "/assets/MAT3.png"
+    ],
     "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-Matematika-II",
+    "id": "elkapede-matematika-2",
     "sku": "mat2132",
-    "name": "Elkapede Matematika II",
+    "name": "Elkapede Matematika 2",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/MAT2.png"],
+    "image": [
+      "/assets/MAT2.png"
+    ],
     "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-Matematika-I",
+    "id": "elkapede-matematika-1",
     "sku": "mat1132",
-    "name": "Elkapede Matematika I",
+    "name": "Elkapede Matematika 1",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/MAT1.png"],
+    "image": [
+      "/assets/MAT1.png"
+    ],
     "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-Koding-dan-Kecerdasan-Artifisial-VI",
+    "id": "elkapede-koding-dan-kecerdasan-artifisial-6-semester-1",
     "sku": "koding6132",
-    "name": "Elkapede Koding dan Kecerdasan Artifisial VI",
+    "name": "Elkapede Koding dan Kecerdasan Artifisial 6 Semester 1",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/Koding 6.png"],
+    "image": [
+      "/assets/Koding 6.png"
+    ],
     "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-Koding-dan-Kecerdasan-Artifisial-V",
+    "id": "elkapede-koding-dan-kecerdasan-artifisial-5-semester-1",
     "sku": "koding5132",
-    "name": "Elkapede Koding dan Kecerdasan Artifisial V",
+    "name": "Elkapede Koding dan Kecerdasan Artifisial 5 Semester 1",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/Koding 5.png"],
+    "image": [
+      "/assets/Koding 5.png"
+    ],
     "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-VI",
+    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-6",
     "sku": "ipas6132",
-    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial VI",
+    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial 6",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/IPAS6.png"],
+    "image": [
+      "/assets/IPAS6.png"
+    ],
     "shortDescription": "Penulis: Ardiana Frida Sylvia, S.Si<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-V",
+    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-5",
     "sku": "ipas5132",
-    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial V",
+    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial 5",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/IPAS5.png"],
+    "image": [
+      "/assets/IPAS5.png"
+    ],
     "shortDescription": "Penulis: Ardiana Frida Sylvia, S.Si<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-IV",
+    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-4",
     "sku": "ipas4132",
-    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial IV",
+    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial 4",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/IPAS4.png"],
+    "image": [
+      "/assets/IPAS4.png"
+    ],
     "shortDescription": "Penulis: Ardiana Frida Sylvia, S.Si<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-III",
+    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-3",
     "sku": "ipas3132",
-    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial III",
+    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial 3",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/IPAS3.png"],
+    "image": [
+      "/assets/IPAS3.png"
+    ],
     "shortDescription": "Penulis: Ardiana Frida Sylvia, S.Si<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-bahasa-inggris-VI",
+    "id": "elkapede-bahasa-inggris-6",
     "sku": "ing6132",
-    "name": "Elkapede Bahasa Inggris VI",
+    "name": "Elkapede Bahasa Inggris 6",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/ING6.png"],
+    "image": [
+      "/assets/ING6.png"
+    ],
     "shortDescription": "Penulis: Achmad Dzaky Mubaroq, S.Pd. Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-bahasa-inggris-V",
+    "id": "elkapede-bahasa-inggris-5",
     "sku": "ing5132",
-    "name": "Elkapede Bahasa Inggris V",
+    "name": "Elkapede Bahasa Inggris 5",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/ING5.png"],
+    "image": [
+      "/assets/ING5.png"
+    ],
     "shortDescription": "Penulis: Achmad Dzaky Mubaroq, S.Pd. Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-bahasa-inggris-IV",
+    "id": "elkapede-bahasa-inggris-4",
     "sku": "ing4132",
-    "name": "Elkapede Bahasa Inggris IV",
+    "name": "Elkapede Bahasa Inggris 4",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/ING4.png"],
+    "image": [
+      "/assets/ING4.png"
+    ],
     "shortDescription": "Penulis: Achmad Dzaky Mubaroq, S.Pd. Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-bahasa-inggris-III",
+    "id": "elkapede-bahasa-inggris-3",
     "sku": "ing3132",
-    "name": "Elkapede Bahasa Inggris III",
+    "name": "Elkapede Bahasa Inggris 3",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/ING3.png"],
+    "image": [
+      "/assets/ING3.png"
+    ],
     "shortDescription": "Penulis: Achmad Dzaky Mubaroq, S.Pd. Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-bahasa-inggris-II",
+    "id": "elkapede-bahasa-inggris-2",
     "sku": "ing2132",
-    "name": "Elkapede Bahasa Inggris II",
+    "name": "Elkapede Bahasa Inggris 2",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/ING2.png"],
+    "image": [
+      "/assets/ING2.png"
+    ],
     "shortDescription": "Penulis: Achmad Dzaky Mubaroq, S.Pd. Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-bahasa-inggris-I",
+    "id": "elkapede-bahasa-inggris-1",
     "sku": "ing1132",
-    "name": "Elkapede Bahasa Inggris I",
+    "name": "Elkapede Bahasa Inggris 1",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/ING1.png"],
+    "image": [
+      "/assets/ING1.png"
+    ],
     "shortDescription": "Penulis: Achmad Dzaky Mubaroq, S.Pd. Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-bahasa-Indonesia-VI",
+    "id": "elkapede-bahasa-indonesia-6",
     "sku": "bi6132",
-    "name": "Elkapede Bahasa Indonesia VI",
+    "name": "Elkapede Bahasa Indonesia 6",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/BI6.png"],
+    "image": [
+      "/assets/BI6.png"
+    ],
     "shortDescription": "Penulis: Riski Amalia, S.S.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-bahasa-Indonesia-V",
+    "id": "elkapede-bahasa-indonesia-5",
     "sku": "bi5132",
-    "name": "Elkapede Bahasa Indonesia V",
+    "name": "Elkapede Bahasa Indonesia 5",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/BI5.png"],
+    "image": [
+      "/assets/BI5.png"
+    ],
     "shortDescription": "Penulis: Riski Amalia, S.S.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-bahasa-Indonesia-IV",
+    "id": "elkapede-bahasa-indonesia-4",
     "sku": "bi4132",
-    "name": "Elkapede Bahasa Indonesia IV",
+    "name": "Elkapede Bahasa Indonesia 4",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/BI4.png"],
+    "image": [
+      "/assets/BI4.png"
+    ],
     "shortDescription": "Penulis: Riski Amalia, S.S.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-bahasa-Indonesia-III",
+    "id": "elkapede-bahasa-indonesia-3",
     "sku": "bi3132",
-    "name": "Elkapede Bahasa Indonesia III",
+    "name": "Elkapede Bahasa Indonesia 3",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/BI3.png"],
+    "image": [
+      "/assets/BI3.png"
+    ],
     "shortDescription": "Penulis: Riski Amalia, S.S.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-bahasa-Indonesia-II",
+    "id": "elkapede-bahasa-indonesia-2",
     "sku": "bi2132",
-    "name": "Elkapede Bahasa Indonesia II",
+    "name": "Elkapede Bahasa Indonesia 2",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/BI2.png"],
+    "image": [
+      "/assets/BI2.png"
+    ],
     "shortDescription": "Penulis: Riski Amalia, S.S.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   },
   {
-    "id": "elkapede-bahasa-Indonesia-I",
+    "id": "elkapede-bahasa-indonesia-1",
     "sku": "bi1132",
-    "name": "Elkapede Bahasa Indonesia I",
+    "name": "Elkapede Bahasa Indonesia 1",
     "price": 15.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 90,
-    "category": ["Elkapede"],
-    "tag": ["BTP"],
+    "category": [
+      "Elkapede"
+    ],
+    "tag": [
+      "BTP"
+    ],
     "stock": 15,
-    "image": ["/assets/BI1.png"],
+    "image": [
+      "/assets/BI1.png"
+    ],
     "shortDescription": "Penulis: Riski Amalia, S.S.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
   }
-] 
+]

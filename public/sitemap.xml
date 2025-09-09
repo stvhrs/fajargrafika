@@ -26,7 +26,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Indonesia%207.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/1.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -35,7 +35,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Inggris%207.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/2.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -44,7 +44,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Matematika%207.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/3.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -53,7 +53,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Ilmu%20Pengetahuan%20Alam%207.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/4.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -62,61 +62,61 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Ilmu%20Pengetahuan%20Sosial%207.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/5.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-matematika-6-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-matematika-6/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Matematika%206%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/MAT6.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-matematika-5-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-matematika-5/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Matematika%205%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/MAT5.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-matematika-4-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-matematika-4/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Matematika%204%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/MAT4.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-matematika-3-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-matematika-3/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Matematika%203%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/MAT3.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-matematika-2-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-matematika-2/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Matematika%202%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/MAT2.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-matematika-1-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-matematika-1/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Matematika%201%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/MAT1.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -125,7 +125,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Koding%20dan%20Kecerdasan%20Artifisial%206%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/Koding%206.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -134,151 +134,151 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Koding%20dan%20Kecerdasan%20Artifisial%205%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/Koding%205.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-ilmu-pengetahuan-alam-dan-sosial-6-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-ilmu-pengetahuan-alam-dan-sosial-6/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Ilmu%20Pengetahuan%20Alam%20dan%20Sosial%206%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/IPAS6.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-ilmu-pengetahuan-alam-dan-sosial-5-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-ilmu-pengetahuan-alam-dan-sosial-5/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Ilmu%20Pengetahuan%20Alam%20dan%20Sosial%205%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/IPAS5.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-ilmu-pengetahuan-alam-dan-sosial-4-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-ilmu-pengetahuan-alam-dan-sosial-4/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Ilmu%20Pengetahuan%20Alam%20dan%20Sosial%204%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/IPAS4.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-ilmu-pengetahuan-alam-dan-sosial-3-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-ilmu-pengetahuan-alam-dan-sosial-3/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Ilmu%20Pengetahuan%20Alam%20dan%20Sosial%203%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/IPAS3.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-inggris-6-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-inggris-6/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Inggris%206%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/ING6.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-inggris-5-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-inggris-5/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Inggris%205%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/ING5.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-inggris-4-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-inggris-4/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Inggris%204%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/ING4.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-inggris-3-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-inggris-3/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Inggris%203%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/ING3.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-inggris-2-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-inggris-2/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Inggris%202%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/ING2.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-inggris-1-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-inggris-1/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Inggris%201%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/ING1.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-6-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-6/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Indonesia%206%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/BI6.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-5-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-5/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Indonesia%205%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/BI5.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-4-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-4/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Indonesia%204%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/BI4.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-3-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-3/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Indonesia%203%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/BI3.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-2-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-2/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Indonesia%202%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/BI2.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-1-semester-1/</loc>
+    <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-1/</loc>
     <lastmod>2025-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.fajargrafika.com/assets/Elkapede%20Bahasa%20Indonesia%201%20Semester%201.png</image:loc>
+      <image:loc>https://www.fajargrafika.com/assets/BI1.png</image:loc>
     </image:image>
   </url>
 </urlset>
