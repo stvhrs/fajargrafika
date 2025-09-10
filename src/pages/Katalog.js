@@ -33,7 +33,7 @@ const TestimonialOne = React.lazy(() => import("../components/TestimonialOne"));
 
 const WhyChooseUsOne = React.lazy(() => import("../components/WhyChooseUsOne"));
 const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
-const ShopGridTwoColumn = () => {
+const Katalog = () => {
   const [layout, setLayout] = useState("grid two-column");
   const [sortType, setSortType] = useState("");
   const [sortValue, setSortValue] = useState("");
@@ -135,4 +135,4 @@ const ShopGridTwoColumn = () => {
   );
 };
 
-export default ShopGridTwoColumn;
+export default Katalog;

@@ -65,7 +65,7 @@ const NavbarTwo = () => {
             </div>
             <div className='logo'>
               <Link className='logo-1' to='/'>
-                <img src='assets/img/home-2/logo.png' alt='Fajar Grafika' />
+                <img src='assets/img/-2/logo.png' alt='Fajar Grafika' />
               </Link>
               <Link className='logo-2' to='/'>
                 <img src='assets/img/logo-2.png' alt='logo' />
@@ -109,16 +109,16 @@ const NavbarTwo = () => {
                       <Link to='/'>Home 01</Link>
                     </li>
                     <li>
-                      <Link to='/home-2'>Home 02</Link>
+                      <Link to='/-2'>Home 02</Link>
                     </li>
                     <li>
-                      <Link to='/home-3'>Home 03</Link>
+                      <Link to='/-3'>Home 03</Link>
                     </li>
                     <li>
-                      <Link to='/home-4'>Home 04</Link>
+                      <Link to='/-4'>Home 04</Link>
                     </li>
                     <li>
-                      <Link to='/home-5'>Home 05</Link>
+                      <Link to='/-5'>Home 05</Link>
                     </li>
                   </ul>
                 </li>

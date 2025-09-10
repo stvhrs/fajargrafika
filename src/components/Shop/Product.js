@@ -20,6 +20,7 @@ const Product = () => {
   const canonical = `${ORIGIN}/katalog/${product.id}/`;
   const images = (product.image || []).map(abs);
   const descPlain = stripHtml(product.shortDescription || "");
+const NavbarOne = React.lazy(() => import("../NavbarOne"));
 
 
   return (
@@ -58,9 +59,9 @@ const Product = () => {
         ]}
       />
       <Suspense fallback={<Preloader />}>
-        <Breadcrumb title={product.name} />
+        <Breadcrumb title={product.name} useKatalog={true} />
 
-
+  {/* <NavbarOne /> */}
 
         {/* product description with image */}
         <ProductImageDescription

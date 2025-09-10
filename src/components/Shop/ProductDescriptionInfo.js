@@ -8,14 +8,14 @@ import { getProductCartQuantity } from "./func/product";
 const ProductDescriptionInfo = ({
   product,
   discountedPrice,
+  currency,
   finalDiscountedPrice,
   finalProductPrice,
   cartItems,
   wishlistItem,
   compareItem,
 }) => {
-  const dispatch = useDispatch();
-  
+
 
   return (
     <div className="product-details-content ml-70">
@@ -23,58 +23,31 @@ const ProductDescriptionInfo = ({
       <div className="product-details-price">
         {discountedPrice !== null ? (
           <Fragment>
-            <span>{"Rp" + finalDiscountedPrice}</span>{" "}
+            <span>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
             <span className="old">
-              {"Rp" + finalProductPrice}
+              {currency.currencySymbol + finalProductPrice}
             </span>
           </Fragment>
         ) : (
-          <span>{"Rp" + finalProductPrice} </span>
+          <span>{currency.currencySymbol + finalProductPrice} </span>
         )}
       </div>
       {product.rating && product.rating > 0 ? (
         <div className="pro-details-rating-wrap">
           <div className="pro-details-rating">
-            
+            {/* <Rating ratingValue={product.rating} /> */}
           </div>
         </div>
       ) : (
         ""
       )}
       <div className="pro-details-list">
-        <p>{product.shortDescription}</p>
+       
+        <p  dangerouslySetInnerHTML={{ __html: product.shortDescription }}></p>
       </div>
 
-      {product.variation ? (
-        <div className="pro-details-size-color">
-          <div className="pro-details-color-wrap">
-            <span>Color</span>
-            <div className="pro-details-color-content">
-              {product.variation.map((single, key) => {
-                return (
-                  <label
-                    className={`pro-details-color-content--single ${single.color}`}
-                    key={key}
-                  >
-                    <input
-                      type="radio"
-                      value={single.color}
-                      name="product-color"
-                    
-                   
-                    />
-                    <span className="checkmark"></span>
-                  </label>
-                );
-              })}
-            </div>
-          </div>
-          
-        </div>
-      ) : (
-        ""
-      )}
-      {product.affiliateLink ? (
+     
+    
         <div className="pro-details-quality">
           <div className="pro-details-cart btn-hover ml-0">
             <a
@@ -86,51 +59,7 @@ const ProductDescriptionInfo = ({
             </a>
           </div>
         </div>
-      ) : (
-        <div className="pro-details-quality">
-          <div className="cart-plus-minus">
-            
-            <input
-              className="cart-plus-minus-box"
-              type="text"
-            
-              readOnly
-            />
-           
-          </div>
-          <div className="pro-details-cart btn-hover">
-            
-          </div>
-          <div className="pro-details-wishlist">
-            <button
-              className={wishlistItem !== undefined ? "active" : ""}
-              disabled={wishlistItem !== undefined}
-              title={
-                wishlistItem !== undefined
-                  ? "Added to wishlist"
-                  : "Add to wishlist"
-              }
-            
-            >
-              <i className="pe-7s-like" />
-            </button>
-          </div>
-          <div className="pro-details-compare">
-            <button
-              className={compareItem !== undefined ? "active" : ""}
-              disabled={compareItem !== undefined}
-              title={
-                compareItem !== undefined
-                  ? "Added to compare"
-                  : "Add to compare"
-              }
-           
-            >
-              <i className="pe-7s-shuffle" />
-            </button>
-          </div>
-        </div>
-      )}
+    
       {product.category ? (
         <div className="pro-details-meta">
           <span>Categories :</span>

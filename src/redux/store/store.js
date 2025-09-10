@@ -10,6 +10,7 @@ import {
   REGISTER,
 } from "redux-persist";
 import storage from "redux-persist/lib/storage";
+import currencyReducer from "../stateSlice/currency-slice";
 
 // Import your reducers
 import productReducer from "../stateSlice/product-slice";
@@ -25,7 +26,7 @@ const persistConfig = {
 
 // Combine reducers
 const rootReducer = combineReducers({
-  product: productReducer,
+  product: productReducer, currency: currencyReducer,
   clickAction: clickActionReducer,
 });
 

@@ -22,6 +22,7 @@ const TeamOne = React.lazy(() => import("../components/TeamOne"));
 const TestimonialOne = React.lazy(() => import("../components/TestimonialOne"));
 const WhyChooseUsOne = React.lazy(() => import("../components/WhyChooseUsOne"));
 const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
+const ServiceOneAll = React.lazy(() => import("../components/ServiceOneAll"));
 
 const HomeOne = () => {
     const siteUrl = "https://www.fajargrafika.com/";
@@ -58,10 +59,11 @@ const HomeOne = () => {
 
           {/* Banner One */}
           <BannerOne />
+          <ServiceOneAll />
 
           {/* Feature One */}
           {/* <FeatureOne /> */}
-          <ServiceOne />
+          {/* <ServiceOne /> */}
 
           {/* About One */}
           {/* <AboutOne /> */}
@@ -69,16 +71,17 @@ const HomeOne = () => {
           {/* Service One */}
 
           {/* Why Choose Us One */}
-          {/* <WhyChooseUsOne /> */}
+          <WhyChooseUsOne />
 
           {/* Counter One */}
 
-          {/* <CounterOne /> */}
+          <CounterOne />
 
           {/* Team One */}
-          {/* <TeamOne /> */}
+          <TeamOne />
 
           {/* Contact One */}
+          {/* <TeamOne /> */}
 
 
           {/* Footer One */}

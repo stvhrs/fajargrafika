@@ -17,7 +17,7 @@ import Pricing from "./pages/Pricing";
 import Faq from "./pages/Faq";
 import Contact from "./pages/Contact";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
-import ShopGridTwoColumn from "./pages/ShopGridTwoColumn";
+import Katalog from "./pages/Katalog";
 // import HomeThree from "./pages/HomeThree";
 // import HomeFour from "./pages/HomeFour";
 // import HomeFive from "./pages/HomeFive";
@@ -42,7 +42,7 @@ function App() {
           />
           <Route
             path={process.env.PUBLIC_URL + "/katalog"}
-            element={<ShopGridTwoColumn />}
+            element={<Katalog />}
           />
           <Route exact path='/' element={<HomeOne />} />
          

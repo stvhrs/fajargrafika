@@ -65,16 +65,16 @@ const NavbarThree = () => {
                       <Link to='/'>Home 01</Link>
                     </li>
                     <li>
-                      <Link to='/home-2'>Home 02</Link>
+                      <Link to='/-2'>Home 02</Link>
                     </li>
                     <li>
-                      <Link to='/home-3'>Home 03</Link>
+                      <Link to='/-3'>Home 03</Link>
                     </li>
                     <li>
-                      <Link to='/home-4'>Home 04</Link>
+                      <Link to='/-4'>Home 04</Link>
                     </li>
                     <li>
-                      <Link to='/home-5'>Home 05</Link>
+                      <Link to='/-5'>Home 05</Link>
                     </li>
                   </ul>
                 </li>

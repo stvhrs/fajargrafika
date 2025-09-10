@@ -49,7 +49,7 @@ const NavbarOne = () => {
       {/* navbar start */}
       <header className='navbar-area'>
         <div className='navbar-top'>
-          <Link className='main-logo' to='/home'>
+          <Link className='main-logo' to='/'>
             <div className='logo d-none d-xl-block'>
               <img src='/assets/img/logo.png' alt='Fajar Grafika' />
             </div>
@@ -172,7 +172,7 @@ const NavbarOne = () => {
             >
               <ul className='navbar-nav menu-open'>
                <li>
-                  <Link to='#'>Home</Link>
+                  <Link to='/'>Home</Link>
                 </li>
                 <li>
                   <Link to='/katalog'>Katalog</Link>
