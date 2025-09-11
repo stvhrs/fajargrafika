@@ -44,7 +44,7 @@ const BlogDetailsInner = () => {
                       </a>
                     </li>
                     <li>
-                      <FaRegCalendarAlt /> 01 July, 2022
+                      <FaRegCalendarAlt /> 01 July, 2025
                     </li>
                     <li>
                       <FaRegCommentDots /> Comments(3)
@@ -157,7 +157,7 @@ const BlogDetailsInner = () => {
                   </a>
                   <div className='media-body'>
                     <h6>Karlos Matheuse</h6>
-                    <span className='date'>21Jun, 2022 08:56pm</span>
+                    <span className='date'>21Jun, 2025 08:56pm</span>
                     <p>
                       Architect lrisk manufactured product without platform
                       interface. Monotonectally cultivate mission-critical
@@ -178,7 +178,7 @@ const BlogDetailsInner = () => {
                   </a>
                   <div className='media-body'>
                     <h6>July Alvarez</h6>
-                    <span className='date'>21Jun, 2022 08:56pm</span>
+                    <span className='date'>21Jun, 2025 08:56pm</span>
                     <p>
                       Architect lrisk manufactured product without platform
                       interface. Monotonectally cultivate mission-critical
@@ -199,7 +199,7 @@ const BlogDetailsInner = () => {
                   </a>
                   <div className='media-body pb-0'>
                     <h6>Karlos Matheuse</h6>
-                    <span className='date'>21Jun, 2022 08:56pm</span>
+                    <span className='date'>21Jun, 2025 08:56pm</span>
                     <p>
                       Architect lrisk manufactured product without platform
                       interface. Monotonectally cultivate mission-critical
@@ -381,7 +381,7 @@ const BlogDetailsInner = () => {
                           </h6>
                           <p>
                             <FaCalendarAlt />
-                            01 July, 2022
+                            01 July, 2025
                           </p>
                         </div>
                       </div>
@@ -397,7 +397,7 @@ const BlogDetailsInner = () => {
                           </h6>
                           <p>
                             <FaCalendarAlt />
-                            01 July, 2022
+                            01 July, 2025
                           </p>
                         </div>
                       </div>
@@ -413,7 +413,7 @@ const BlogDetailsInner = () => {
                           </h6>
                           <p>
                             <FaCalendarAlt />
-                            01 July, 2022
+                            01 July, 2025
                           </p>
                         </div>
                       </div>

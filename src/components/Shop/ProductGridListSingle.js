@@ -26,143 +26,135 @@ const ProductGridListSingle = ({
 
   return (
     <Fragment>
-        <div className={clsx("product-wrap", spaceBottomClass)}>
-          <div className="product-img">
-            <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
+      <div className={clsx("product-wrap", spaceBottomClass)}>
+        <div className="product-img">
+          <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
+            <img
+              className="default-img"
+              src={process.env.PUBLIC_URL + product.image[0]}
+              alt=""
+            />
+            {product.image.length > 1 ? (
               <img
-                className="default-img"
-                src={process.env.PUBLIC_URL + product.image[0]}
+                className="hover-img"
+                src={process.env.PUBLIC_URL + product.image[1]}
                 alt=""
               />
-              {product.image.length > 1 ? (
-                <img
-                  className="hover-img"
-                  src={process.env.PUBLIC_URL + product.image[1]}
-                  alt=""
-                />
+            ) : (
+              ""
+            )}
+          </Link>
+          {product.discount || product.new ? (
+            <div className="product-img-badges">
+              {product.discount ? (
+                <span className="pink">-{product.discount}%</span>
               ) : (
                 ""
               )}
-            </Link>
-            {product.discount || product.new ? (
-              <div className="product-img-badges">
-                {product.discount ? (
-                  <span className="pink">-{product.discount}%</span>
-                ) : (
-                  ""
-                )}
-                {product.new ? <span className="purple">New</span> : ""}
-              </div>
-            ) : (
-              ""
-            )}
+              {product.new ? <span className="purple">New</span> : ""}
+            </div>
+          ) : (
+            ""
+          )}
 
-            <div className="product-action">
-             
-             
-              <div className="pro-same-action pro-quickview">
-                <button onClick={() => setModalShow(true)} title="Quick View">
-                  <i className="pe-7s-look" />
-                </button>
-              </div>
+       
+        </div>
+        <div className="product-content text-center">
+          <h3>
+            <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
+              {product.name}
+            </Link>
+          </h3>
+          {product.rating && product.rating > 0 ? (
+            <div className="product-rating">
+
             </div>
-          </div>
-          <div className="product-content text-center">
-            <h3>
-              <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
-                {product.name}
-              </Link>
-            </h3>
-            {product.rating && product.rating > 0 ? (
-              <div className="product-rating">
-                
-              </div>
+          ) : (
+            ""
+          )}
+          <div className="product-price">
+            {discountedPrice !== null ? (
+              <Fragment>
+                <span>{"Rp " + finalDiscountedPrice}</span>{" "}
+                <span className="old">
+                  {"Rp " + finalProductPrice}
+                </span>
+              </Fragment>
             ) : (
-              ""
+              <span>{"Rp " + finalProductPrice} </span>
             )}
-            <div className="product-price">
-              {discountedPrice !== null ? (
-                <Fragment>
-                  <span>{"Rp " + finalDiscountedPrice}</span>{" "}
-                  <span className="old">
-                    {"Rp " + finalProductPrice}
-                  </span>
-                </Fragment>
-              ) : (
-                <span>{"Rp " + finalProductPrice} </span>
-              )}
-            </div>
           </div>
         </div>
-        <div className="shop-list-wrap mb-30">
-          <div className="row">
-            <div className="col-xl-4 col-md-5 col-sm-6">
-              <div className="product-list-image-wrap">
-                <div className="product-img">
-                  <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
+      </div>
+      <div className="shop-list-wrap mb-30">
+        <div className="row">
+          <div className="col-xl-4 col-md-5 col-sm-6">
+            <div className="product-list-image-wrap">
+              <div className="product-img">
+                <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
+                  <img
+                    className="default-img img-fluid"
+                    src={process.env.PUBLIC_URL + product.image[0]}
+                    alt=""
+                  />
+                  {product.image.length > 1 ? (
                     <img
-                      className="default-img img-fluid"
-                      src={process.env.PUBLIC_URL + product.image[0]}
+                      className="hover-img img-fluid"
+                      src={process.env.PUBLIC_URL + product.image[1]}
                       alt=""
                     />
-                    {product.image.length > 1 ? (
-                      <img
-                        className="hover-img img-fluid"
-                        src={process.env.PUBLIC_URL + product.image[1]}
-                        alt=""
-                      />
-                    ) : (
-                      ""
-                    )}
-                  </Link>
-                  {product.discount || product.new ? (
-                    <div className="product-img-badges">
-                      {product.discount ? (
-                        <span className="pink">-{product.discount}%</span>
-                      ) : (
-                        ""
-                      )}
-                      {product.new ? <span className="purple">New</span> : ""}
-                    </div>
                   ) : (
                     ""
                   )}
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-8 col-md-7 col-sm-6">
-              <div className="shop-list-content">
-                <h3>
-                  <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
-                    {product.name}
-                  </Link>
-                </h3>
-                <div className="product-list-price">
-                  {discountedPrice !== null ? (
-                    <Fragment>
-                      <span>
-                        {"Rp " + finalDiscountedPrice}
-                      </span>{" "}
-                      <span className="old">
-                        {"Rp " + finalProductPrice}
-                      </span>
-                    </Fragment>
-                  ) : (
-                    <span>{"Rp " + finalProductPrice} </span>
-                  )}
-                </div>
-               
-                {product.shortDescription ? (
-                  <p>{product.shortDescription}</p>
+                </Link>
+                {product.discount || product.new ? (
+                  <div className="product-img-badges">
+                    {product.discount ? (
+                      <span className="pink">-{product.discount}%</span>
+                    ) : (
+                      ""
+                    )}
+                    {product.new ? <span className="purple">New</span> : ""}
+                  </div>
                 ) : (
                   ""
                 )}
-
-              
               </div>
             </div>
           </div>
+          <div className="col-xl-8 col-md-7 col-sm-6">
+            <div className="shop-list-content">
+              <h3>
+                <Link to={process.env.PUBLIC_URL + "/katalog/" + product.id}>
+                  {product.name}
+                </Link>
+              </h3>
+              <div className="product-list-price">
+                {discountedPrice !== null ? (
+                  <Fragment>
+                    <span>
+                      {"Rp " + finalDiscountedPrice}
+                    </span>{" "}
+                    <span className="old">
+                      {"Rp " + finalProductPrice}
+                    </span>
+                  </Fragment>
+                ) : (
+                  <span>{"Rp " + finalProductPrice} </span>
+                )}
+              </div>
+
+              {product.shortDescription ? (
+                <p>{product.shortDescription}</p>
+              ) : (
+                ""
+              )}
+
+
+            </div>
+          </div>
         </div>
+      </div>
       {/* product modal */}
       <ProductModal
         show={modalShow}

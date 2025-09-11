@@ -74,7 +74,7 @@ const FooterThree = () => {
               <div className='col-lg-6'>
                 <div className='copyright-text'>
                   <span>
-                    © 2022{" "}
+                    © 2025{" "}
                     <a href='#' className='active'>
                       Fajar Grafika
                     </a>{" "}

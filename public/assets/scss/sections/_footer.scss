@@ -5,6 +5,8 @@
   position: relative;
   background-color: #080c24;
   padding-bottom: 50px;
+   text-decoration: none !important; /* Menghapus garis bawah secara paksa */
+  transition: color 0.3s ease; /* Animasi perubahan warna yang halus */
   &.style-2 {
     .footer-top {
       padding: 0;
@@ -138,6 +140,14 @@
       }
     }
   }
+}.footer-area a:hover,
+.footer-area a:active {
+  color: #FA4318 !important; /* Warna oranye sesuai brand Anda */
+}
+
+/* Khusus untuk widget layanan, agar icon panah juga ikut berubah warna */
+.widget_nav_menu ul li a:hover svg {
+  color: #FA4318 !important;
 }
 .footer-bottom-area {
   background: #161922;

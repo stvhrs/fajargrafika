@@ -150,7 +150,7 @@ const FooterTwo = () => {
                     <FaMapMarkerAlt />
                   </div>
                   <div className='details'>
-                    <p>2245 Gilbert Ave, Cincinnati, OH</p>
+                    <p>Jl. Tulusari, Kecamatan Plupuh, Kabupaten Sragen, Jawa Tengah</p>
                     <p>45206, United States</p>
                   </div>
                 </div>
@@ -159,7 +159,7 @@ const FooterTwo = () => {
                     <FaMobileAlt />
                   </div>
                   <div className='details'>
-                    <p>+1 800-226-4054</p>
+                    <p>081918201522</p>
                     <p>+1 800-654-7896</p>
                   </div>
                 </div>
@@ -168,7 +168,7 @@ const FooterTwo = () => {
                     <FaRegEnvelopeOpen />
                   </div>
                   <div className='details'>
-                    <p>info.logic@fajargrafika.com</p>
+                    <p>fajargrafikaarthanusantara@gmail.com</p>
                     <p>info@fajargrafika.com</p>
                   </div>
                 </div>

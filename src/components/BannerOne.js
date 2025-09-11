@@ -85,7 +85,7 @@ const BannerOne = () => {
                           <div className='btn-wrap'>
                             <Link
                               className='btn btn-base b-animate-4'
-                              to='https://wa.me/6281918201522"'
+                              to='https://wa.me/6281918201522'
                             >
                               Chat Whatsapp
                             </Link>

@@ -36,7 +36,7 @@ const BlogView = () => {
                       </a>
                     </li>
                     <li>
-                      <FaRegCalendarAlt /> 01 July, 2022
+                      <FaRegCalendarAlt /> 01 July, 2025
                     </li>
                     <li>
                       <FaRegCommentDots /> Comments(3)
@@ -76,7 +76,7 @@ const BlogView = () => {
                       </a>
                     </li>
                     <li>
-                      <FaRegCalendarAlt /> 01 July, 2022
+                      <FaRegCalendarAlt /> 01 July, 2025
                     </li>
                     <li>
                       <FaRegCommentDots /> Comments(3)
@@ -113,7 +113,7 @@ const BlogView = () => {
                       </a>
                     </li>
                     <li>
-                      <FaRegCalendarAlt /> 01 July, 2022
+                      <FaRegCalendarAlt /> 01 July, 2025
                     </li>
                     <li>
                       <FaRegCommentDots /> Comments(3)
@@ -153,7 +153,7 @@ const BlogView = () => {
                       </a>
                     </li>
                     <li>
-                      <FaRegCalendarAlt /> 01 July, 2022
+                      <FaRegCalendarAlt /> 01 July, 2025
                     </li>
                     <li>
                       <FaRegCommentDots /> Comments(3)
@@ -323,7 +323,7 @@ const BlogView = () => {
                           </h6>
                           <p>
                             <FaCalendarAlt />
-                            01 July, 2022
+                            01 July, 2025
                           </p>
                         </div>
                       </div>
@@ -339,7 +339,7 @@ const BlogView = () => {
                           </h6>
                           <p>
                             <FaCalendarAlt />
-                            01 July, 2022
+                            01 July, 2025
                           </p>
                         </div>
                       </div>
@@ -355,7 +355,7 @@ const BlogView = () => {
                           </h6>
                           <p>
                             <FaCalendarAlt />
-                            01 July, 2022
+                            01 July, 2025
                           </p>
                         </div>
                       </div>

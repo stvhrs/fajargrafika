@@ -1,9 +1,7 @@
 import PropTypes from "prop-types";
-import React, { Fragment, useState } from "react";
+import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import { getProductCartQuantity } from "./func/product";
-
+import { FaWhatsapp } from "react-icons/fa";
 
 const ProductDescriptionInfo = ({
   product,
@@ -15,23 +13,29 @@ const ProductDescriptionInfo = ({
   wishlistItem,
   compareItem,
 }) => {
-
+  // ====== KONFIGURASI WHATSAPP ======
+  // Ganti dengan nomor WA tujuan (format internasional tanpa +, mis: 62812xxxx)
+  const WA_NUMBER = "6281918201522";
+  const waText = encodeURIComponent(
+    `Halo Fajar Grafika, saya tertarik dengan produk: ${product?.name}. Apakah masih tersedia?`
+  );
+  const waHref = `https://wa.me/${WA_NUMBER}?text=${waText}`;
 
   return (
     <div className="product-details-content ml-70">
       <h2>{product.name}</h2>
+
       <div className="product-details-price">
         {discountedPrice !== null ? (
           <Fragment>
             <span>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
-            <span className="old">
-              {currency.currencySymbol + finalProductPrice}
-            </span>
+            <span className="old">{currency.currencySymbol + finalProductPrice}</span>
           </Fragment>
         ) : (
           <span>{currency.currencySymbol + finalProductPrice} </span>
         )}
       </div>
+
       {product.rating && product.rating > 0 ? (
         <div className="pro-details-rating-wrap">
           <div className="pro-details-rating">
@@ -41,25 +45,28 @@ const ProductDescriptionInfo = ({
       ) : (
         ""
       )}
+
       <div className="pro-details-list">
-       
-        <p  dangerouslySetInnerHTML={{ __html: product.shortDescription }}></p>
+        <p dangerouslySetInnerHTML={{ __html: product.shortDescription }}></p>
       </div>
 
-     
-    
-        <div className="pro-details-quality">
-          <div className="pro-details-cart btn-hover ml-0">
-            <a
-              href={product.affiliateLink}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Buy Now
-            </a>
-          </div>
+      {/* TOMBOL CHAT WHATSAPP */}
+      <div className="pro-details-quality">
+        <div className="pro-details-cart ml-0">
+          <a
+            href={waHref}
+            rel="noopener noreferrer"
+            target="_blank"
+            className="btn-wa"
+            aria-label="Chat via WhatsApp"
+            title="Chat via WhatsApp"
+          >
+            <FaWhatsapp style={{ marginRight: 8 }} />
+            Chat WhatsApp
+          </a>
         </div>
-    
+      </div>
+
       {product.category ? (
         <div className="pro-details-meta">
           <span>Categories :</span>
@@ -67,9 +74,7 @@ const ProductDescriptionInfo = ({
             {product.category.map((single, key) => {
               return (
                 <li key={key}>
-                  <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                    {single}
-                  </Link>
+                  <Link to={process.env.PUBLIC_URL + "/katalog"}>{single}</Link>
                 </li>
               );
             })}
@@ -78,16 +83,15 @@ const ProductDescriptionInfo = ({
       ) : (
         ""
       )}
+
       {product.tag ? (
         <div className="pro-details-meta">
-          <span>Tags :</span>
+          <span>Mapel :</span>
           <ul>
             {product.tag.map((single, key) => {
               return (
                 <li key={key}>
-                  <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                    {single}
-                  </Link>
+                  <Link to={process.env.PUBLIC_URL + "/katalog"}>{single}</Link>
                 </li>
               );
             })}
@@ -126,6 +130,32 @@ const ProductDescriptionInfo = ({
           </li>
         </ul>
       </div>
+
+      {/* Styling tombol WA */}
+      <style>{`
+        .btn-wa {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          background: #25D366;     /* Hijau WhatsApp */
+          color: #fff;
+          border: none;
+          padding: 12px 20px;
+          border-radius: 6px;
+          text-decoration: none;
+          font-weight: 600;
+          transition: background .2s ease, transform .05s ease;
+        }
+        .btn-wa:hover,
+        .btn-wa:focus {
+          background: #1ebe57;     /* sedikit lebih gelap saat hover */
+          color: #fff;
+          outline: none;
+        }
+        .btn-wa:active {
+          transform: translateY(1px);
+        }
+      `}</style>
     </div>
   );
 };
@@ -138,7 +168,7 @@ ProductDescriptionInfo.propTypes = {
   finalDiscountedPrice: PropTypes.number,
   finalProductPrice: PropTypes.number,
   product: PropTypes.shape({}),
-  wishlistItem: PropTypes.shape({})
+  wishlistItem: PropTypes.shape({}),
 };
 
 export default ProductDescriptionInfo;

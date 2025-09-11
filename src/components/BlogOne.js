@@ -29,7 +29,7 @@ const BlogOne = () => {
                 <div className='details'>
                   <h4>
                     <Link to='/blog-details'>
-                      Express delivery is going to slow down in 2022
+                      Express delivery is going to slow down in 2025
                     </Link>
                   </h4>
                   <ul className='blog-meta'>
@@ -41,7 +41,7 @@ const BlogOne = () => {
                       </a>
                     </li>
                     <li>
-                      <FaRegCalendarAlt /> 01 July, 2022
+                      <FaRegCalendarAlt /> 01 July, 2025
                     </li>
                   </ul>
                   <Link className='read-more-text' to='/blog-details'>
@@ -70,7 +70,7 @@ const BlogOne = () => {
                       </a>
                     </li>
                     <li>
-                      <FaRegCalendarAlt /> 01 July, 2022
+                      <FaRegCalendarAlt /> 01 July, 2025
                     </li>
                   </ul>
                   <Link className='read-more-text' to='/blog-details'>
@@ -99,7 +99,7 @@ const BlogOne = () => {
                       </a>
                     </li>
                     <li>
-                      <FaRegCalendarAlt /> 01 July, 2022
+                      <FaRegCalendarAlt /> 01 July, 2025
                     </li>
                   </ul>
                   <Link className='read-more-text' to='/blog-details'>
