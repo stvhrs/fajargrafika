@@ -11,18 +11,24 @@ const PRODUCTS_JSON = path.resolve(__dirname, "../public/assets/products.json");
 const OUT_DIR = path.resolve(__dirname, "../public");
 
 // If product pages live under /produk/[slug]/ set to "/produk/"
-const PRODUCT_PREFIX = "/katalog/"; 
+const PRODUCT_PREFIX = "/katalog/";
 
 const STATIC_PATHS = [
   { loc: "/", priority: 1.0, changefreq: "weekly" },
   { loc: "/katalog/", priority: 0.9, changefreq: "weekly" },
-  { loc: "/contact/", priority: 0.7, changefreq: "monthly" },
+  { loc: "/contact/", priority: 0.9, changefreq: "weekly" },// Halaman detail layanan
+  { loc: "/service/percetakan-penerbitan", priority: 0.9, changefreq: "weekly" },
+  { loc: "/service/distributor-grosir-buku", priority: 0.9, changefreq: "weekly" },
+  { loc: "/service/penulisan-desain-buku", priority: 0.9, changefreq: "weekly" },
+  { loc: "/service/produksi-video-pembelajaran", priority: 0.8, changefreq: "weekly" },
+  { loc: "/service/pelatihan-profesional-guru", priority: 0.8, changefreq: "weekly" },
+  { loc: "/service/bimbingan-belajar", priority: 0.8, changefreq: "weekly" }
 ];
 
 /** ===== UTIL ===== */
 const esc = (s) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
-   .replace(/"/g, "&quot;").replace(/'/g, "&apos;");
+    .replace(/"/g, "&quot;").replace(/'/g, "&apos;");
 
 function slugify(name) {
   return name

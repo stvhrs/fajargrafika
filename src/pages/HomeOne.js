@@ -77,8 +77,8 @@ const HomeOne = () => {
           <WhyChooseUsOne />
 
           {/* Counter One */}
+<div className="mb-120">          <CounterOne /></div>
 
-          <CounterOne />
 
           {/* Team One */}
           {/* <TeamOne /> */}

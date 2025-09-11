@@ -14,71 +14,47 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
-    <loc>https://www.fajargrafika.com/</loc>
-    <lastmod>2025-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.fajargrafika.com/katalog</loc>
+    <loc>https://www.fajargrafika.com/contact/</loc>
     <lastmod>2025-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/kontak</loc>
+    <loc>https://www.fajargrafika.com/service/percetakan-penerbitan</loc>
     <lastmod>2025-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://www.fajargrafika.com/percetakan-penerbitan</loc>
+    <loc>https://www.fajargrafika.com/service/distributor-grosir-buku</loc>
     <lastmod>2025-09-11</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.fajargrafika.com/service/penulisan-desain-buku</loc>
+    <lastmod>2025-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.fajargrafika.com/service/produksi-video-pembelajaran</loc>
+    <lastmod>2025-09-11</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/penulisan-desain-buku</loc>
+    <loc>https://www.fajargrafika.com/service/pelatihan-profesional-guru</loc>
     <lastmod>2025-09-11</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fajargrafika.com/produksi-video-pembelajaran</loc>
+    <loc>https://www.fajargrafika.com/service/bimbingan-belajar</loc>
     <lastmod>2025-09-11</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fajargrafika.com/pelatihan-profesional-guru</loc>
-    <lastmod>2025-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fajargrafika.com/bimbingan-belajar</loc>
-    <lastmod>2025-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fajargrafika.com/distributor-grosir-buku</loc>
-    <lastmod>2025-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-</urlset>
-  <url>
-    <loc>https://www.fajargrafika.com/contact/</loc>
-    <lastmod>2025-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.fajargrafika.com/katalog/elkapede-bahasa-indonesia-7/</loc>

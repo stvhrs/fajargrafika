@@ -12,72 +12,55 @@ const CounterOne = () => {
           style={{ background: "url(assets/img/fact/bg.png)" }}
         >
           <div className='row justify-content-center'>
-            <div className='col-lg-3 col-md-6'>
+            <div className='col-lg-4 col-md-6'>
               <div className='single-fact-wrap'>
                 <h2>
                   <TrackVisibility once>
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp delay={0} start={0} end={2000} />+
+                          <CountUp delay={0} start={0} end={60000} />+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <h5>PROJECT COMPLETE</h5>
-                <p>Conveniently impact front-end niches via maintainable.</p>
+                <h5>CUSTOMER</h5>
+                <p>Jaringan pelanggan setia kami terus bertumbuh, menjadi bukti kepercayaan pada kualitas layanan Fajar Grafika.</p>
               </div>
             </div>
-            <div className='col-lg-3 col-md-6'>
+            <div className='col-lg-4 col-md-6'>
               <div className='single-fact-wrap'>
                 <h2>
                   <TrackVisibility once>
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp delay={0} start={0} end={100} />+
+                          <CountUp delay={0} start={0} end={20} />+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <h5>BEST EMPLOYEES</h5>
-                <p>Conveniently impact front-end niches via maintainable.</p>
+                <h5>STAFF PROFESIONAL</h5>
+                <p>Didukung oleh tim ahli di bidang penerbitan, percetakan, dan pendidikan yang siap melayani Anda.</p>
               </div>
             </div>
-            <div className='col-lg-3 col-md-6'>
+            <div className='col-lg-4 col-md-6'>
               <div className='single-fact-wrap'>
                 <h2>
                   <TrackVisibility once>
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp delay={0} start={0} end={450} />+
+                          <CountUp delay={0} start={0} end={700} />+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <h5>WORLDWIDE CLIENTS</h5>
-                <p>Conveniently impact front-end niches via maintainable.</p>
-              </div>
-            </div>
-            <div className='col-lg-3 col-md-6'>
-              <div className='single-fact-wrap after-none'>
-                <h2>
-                  <TrackVisibility once>
-                    {({ isVisible }) =>
-                      isVisible && (
-                        <span className='counter'>
-                          <CountUp delay={0} start={0} end={80} />+
-                        </span>
-                      )
-                    }
-                  </TrackVisibility>
-                </h2>
-                <h5>WORLD AWARDS</h5>
-                <p>Conveniently impact front-end niches via maintainable.</p>
+                <h5>MITRA SEKOLAH</h5>
+                <p>Kami bangga bekerja sama dengan ratusan sekolah di seluruh Indonesia untuk mencetak generasi unggul.</p>
               </div>
             </div>
           </div>

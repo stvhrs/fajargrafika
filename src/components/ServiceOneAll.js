@@ -8,42 +8,42 @@ const serviceList = [
     slug: "percetakan-penerbitan", // <-- Tambahkan slug
     title: "PERCETAKAN & PENERBITAN",
     des: "Solusi lengkap untuk mewujudkan naskah Anda menjadi buku berkualitas, dari proses editorial hingga cetak.",
-    img: "assets/img/service/1.png",
+    img: "./assets/img/cetak.png", // 
     icon: "assets/img/service/service-icon-1.png",
   },
-  {
-    slug: "penulisan-desain-buku", // <-- Tambahkan slug
+   {
+    slug: "penulisan-desain-buku",
     title: "PENULISAN & DESAIN BUKU",
     des: "Layanan kreatif mulai dari penulisan naskah, layout profesional, hingga desain sampul yang memikat pembaca.",
-    img: "assets/img/service/2.png",
+    img: "./assets/img/penulis.jpg", // Diperbarui (sesuai data yang Anda berikan)
     icon: "assets/img/service/service-icon-2.png",
   },
   {
-    slug: "produksi-video-pembelajaran", // <-- Tambahkan slug
+    slug: "produksi-video-pembelajaran",
     title: "PRODUKSI VIDEO PEMBELAJARAN",
     des: "Produksi video pembelajaran berkualitas studio untuk materi ajar yang lebih menarik dan interaktif.",
-    img: "assets/img/service/3.png",
+    img: "./assets/img/video-belajar.jpeg", // Diperbarui
     icon: "assets/img/service/service-icon-3.png",
   },
   {
-    slug: "pelatihan-profesional-guru", // <-- Tambahkan slug
+    slug: "pelatihan-profesional-guru",
     title: "PELATIHAN PROFESIONAL GURU",
     des: "Meningkatkan kompetensi dan metode mengajar para pendidik melalui program pelatihan yang inovatif.",
-    img: "assets/img/service/4.png",
+    img: "./assets/img/pelatihan.jpeg", // Diperbarui
     icon: "assets/img/service/service-icon-4.png",
   },
   {
-    slug: "bimbingan-belajar", // <-- Tambahkan slug
+    slug: "bimbingan-belajar",
     title: "BIMBINGAN BELAJAR (SD-SMA)",
     des: "Bimbingan belajar 'Gubuk Belajar' untuk semua jenjang (SD, SMP, SMA) dengan metode yang efektif.",
-    img: "assets/img/service/5.png",
+    img: "./assets/img/bimbel.jpeg", // Diperbarui
     icon: "assets/img/service/service-icon-5.png",
   },
   {
-    slug: "distributor-grosir-buku", // <-- Tambahkan slug
+    slug: "distributor-grosir-buku",
     title: "DISTRIBUTOR & GROSIR BUKU",
     des: "Menyediakan semua buku dari seluruh penerbit di Indonesia dengan jaminan harga terbaik.",
-    img: "assets/img/service/6.png",
+    img: "./assets/img/distribusi.png", // Diperbarui
     icon: "assets/img/service/service-icon-6.png",
   },
 ];
