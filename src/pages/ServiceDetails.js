@@ -1,41 +1,54 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
+import SEO from "../seo";
+import { useParams } from 'react-router-dom'; // 1. Import useParams
+import { serviceData } from './servicedata'; // 2. Import data layanan Anda
+
 const Breadcrumb = React.lazy(() => import("../components/Breadcrumb"));
-const FooterBottomOne = React.lazy(() =>
-  import("../components/FooterBottomOne")
-);
+const FooterBottomOne = React.lazy(() => import("../components/FooterBottomOne"));
 const FooterOne = React.lazy(() => import("../components/FooterOne"));
 const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
-const ServiceDetailsInner = React.lazy(() =>
-  import("../components/ServiceDetailsInner")
-);
+const ServiceDetailsInner = React.lazy(() => import("../components/ServiceDetailsInner"));
 const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
+
 const ServiceDetails = () => {
-  return (
-    <>
-      <Fragment>
-        <Suspense fallback={<Preloader />}>
-          {/* Search Popup */}
-          <SearchPopup />
+    // 3. Ambil 'slug' dari URL
+    const { slug } = useParams();
 
-          {/* Navbar One */}
-          <NavbarOne />
+    // 4. Cari data yang sesuai berdasarkan slug
+    const service = serviceData.find(item => item.slug === slug);
 
-          {/* Breadcrumb */}
-          <Breadcrumb title={"SERVICES DETAILS"} />
+    // 5. Handle jika data tidak ditemukan (URL salah)
+    if (!service) {
+        return (
+            // Anda bisa membuat komponen 404 khusus
+            <div>Halaman tidak ditemukan</div>
+        );
+    }
+    
+    // 6. Gunakan data yang ditemukan untuk SEO dan komponen lainnya
+    return (
+        <Fragment>
+            <SEO
+                title={service.title} // <-- DATA DINAMIS
+                description={service.des} // <-- DATA DINAMIS
+                canonical={`https://www.fajargrafika.com/service/${service.slug}`} // <-- DATA DINAMIS
+            />
+            <Suspense fallback={<Preloader />}>
+                <SearchPopup />
+                <NavbarOne />
+                
+                {/* Judul Breadcrumb sekarang dinamis */}
+                <Breadcrumb title={service.title} /> 
 
-          {/* Service Details Inner */}
-          <ServiceDetailsInner />
+                {/* Lewatkan seluruh data 'service' sebagai prop ke komponen inner */}
+                <ServiceDetailsInner service={service} /> 
 
-          {/* Footer One */}
-          <FooterOne />
-
-          {/* Footer Bottom One */}
-          <FooterBottomOne />
-        </Suspense>{" "}
-      </Fragment>
-    </>
-  );
+                <FooterOne />
+                <FooterBottomOne />
+            </Suspense>
+        </Fragment>
+    );
 };
 
 export default ServiceDetails;

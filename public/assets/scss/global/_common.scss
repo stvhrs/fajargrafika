@@ -7,7 +7,9 @@
 }
 .btn {
   height: 60px;
-  line-height: 58px;
+  align-items: center; /* Menengahkan secara vertikal */
+  justify-content: center; /* Menengahkan secara horizontal */
+  line-height: 60px;
   padding: 0 30px;
   border-radius: 0;
   overflow: hidden;

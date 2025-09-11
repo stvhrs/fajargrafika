@@ -5,43 +5,48 @@ import { Link } from "react-router-dom";
 // Data layanan Anda, sekarang dengan 6 item
 const serviceList = [
   {
+    slug: "percetakan-penerbitan", // <-- Tambahkan slug
     title: "PERCETAKAN & PENERBITAN",
     des: "Solusi lengkap untuk mewujudkan naskah Anda menjadi buku berkualitas, dari proses editorial hingga cetak.",
     img: "assets/img/service/1.png",
     icon: "assets/img/service/service-icon-1.png",
   },
   {
+    slug: "penulisan-desain-buku", // <-- Tambahkan slug
     title: "PENULISAN & DESAIN BUKU",
     des: "Layanan kreatif mulai dari penulisan naskah, layout profesional, hingga desain sampul yang memikat pembaca.",
     img: "assets/img/service/2.png",
     icon: "assets/img/service/service-icon-2.png",
   },
   {
+    slug: "produksi-video-pembelajaran", // <-- Tambahkan slug
     title: "PRODUKSI VIDEO PEMBELAJARAN",
     des: "Produksi video pembelajaran berkualitas studio untuk materi ajar yang lebih menarik dan interaktif.",
     img: "assets/img/service/3.png",
     icon: "assets/img/service/service-icon-3.png",
   },
   {
+    slug: "pelatihan-profesional-guru", // <-- Tambahkan slug
     title: "PELATIHAN PROFESIONAL GURU",
-    des: "Meningkatkan kompetensi dan metode mengajar para pendidik melalui program pelatihan yang inovatif dan aplikatif.",
+    des: "Meningkatkan kompetensi dan metode mengajar para pendidik melalui program pelatihan yang inovatif.",
     img: "assets/img/service/4.png",
     icon: "assets/img/service/service-icon-4.png",
   },
   {
+    slug: "bimbingan-belajar", // <-- Tambahkan slug
     title: "BIMBINGAN BELAJAR (SD-SMA)",
-    des: "Bimbingan belajar 'Gubuk Belajar' untuk semua jenjang (SD, SMP, SMA) dengan metode yang efektif dan menyenangkan.",
+    des: "Bimbingan belajar 'Gubuk Belajar' untuk semua jenjang (SD, SMP, SMA) dengan metode yang efektif.",
     img: "assets/img/service/5.png",
     icon: "assets/img/service/service-icon-5.png",
   },
   {
+    slug: "distributor-grosir-buku", // <-- Tambahkan slug
     title: "DISTRIBUTOR & GROSIR BUKU",
-    des: "Menyediakan semua buku dari seluruh penerbit di Indonesia, termasuk terbitan kami, dengan jaminan harga terbaik.",
+    des: "Menyediakan semua buku dari seluruh penerbit di Indonesia dengan jaminan harga terbaik.",
     img: "assets/img/service/6.png",
     icon: "assets/img/service/service-icon-6.png",
   },
 ];
-
 
 const ServiceOneAll = () => {
   return (
@@ -77,7 +82,7 @@ const ServiceOneAll = () => {
                     <h5>{service.title}</h5>
                     <p>{service.des}</p>
                     <div className='btn-wrap'>
-                      <Link className='read-more-text' to='/service-details'>
+                      <Link className='read-more-text'  to={process.env.PUBLIC_URL + "/service/" + service.slug}>
                         SELENGKAPNYA{" "}
                         <span>
                           <FaArrowRight />

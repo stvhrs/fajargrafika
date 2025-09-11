@@ -40,12 +40,13 @@ function App() {
             path={process.env.PUBLIC_URL + "/katalog/:id"}
             element={<Product />}
           />
+          <Route path='/service/:slug' element={<ServiceDetails />} />
           <Route
             path={process.env.PUBLIC_URL + "/katalog"}
             element={<Katalog />}
           />
           <Route exact path='/' element={<HomeOne />} />
-         
+
           <Route exact path='/contact' element={<Contact />} />
         </Routes>
         <ScrollToTop smooth color='#FA4318' />

@@ -66,7 +66,62 @@ export const cartItemStock = (item, color, size) => {
       .size.filter(single => single.name === size)[0].stock;
   }
 };
+/**
+ * Mendapatkan produk yang telah difilter dan diurutkan berdasarkan beberapa kriteria.
+ * @param {Array} products - Array produk asli.
+ * @param {Object} filters - Objek yang berisi filter aktif. Contoh: { category: "buku-sd", tag: "terbaru", color: "biru" }
+ * @param {String} sortOrder - Tipe pengurutan. Contoh: "priceHighToLow"
+ * @returns {Array} Array produk yang sudah difilter dan diurutkan.
+ */
+export const getMultiFilteredProducts = (products, filters, sortOrder) => {
+  let filteredProducts = [...products]; // Salin array agar tidak mengubah data asli
 
+  // --- TAHAP FILTERING ---
+  // Terapkan filter jika ada nilainya di objek filters
+  if (filters) {
+    // Filter berdasarkan Kategori
+    if (filters.category) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.category.includes(filters.category)
+      );
+    }
+
+    // Filter berdasarkan Tag (diterapkan pada hasil filter kategori)
+    if (filters.tag) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.tag.includes(filters.tag)
+      );
+    }
+
+    // Filter berdasarkan Warna
+    if (filters.color) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.variation?.some(v => v.color === filters.color)
+      );
+    }
+
+    // Filter berdasarkan Ukuran
+    if (filters.size) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.variation?.some(v => v.size?.some(s => s.name === filters.size))
+      );
+    }
+  }
+
+  // --- TAHAP SORTING ---
+  // Terapkan pengurutan setelah semua filter selesai
+  if (sortOrder) {
+    if (sortOrder === "priceHighToLow") {
+      filteredProducts.sort((a, b) => b.price - a.price);
+    }
+    if (sortOrder === "priceLowToHigh") {
+      filteredProducts.sort((a, b) => a.price - a.price);
+    }
+    // Jika sortOrder === "default", tidak perlu melakukan apa-apa
+  }
+
+  return filteredProducts;
+};
 //get products based on category
 export const getSortedProducts = (products, sortType, sortValue) => {
   if (products && sortType && sortValue) {

@@ -3,37 +3,27 @@ import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-// Data untuk 6 slide banner sesuai layanan Anda
+// Data untuk setiap slide banner
 const bannerData = [
   {
-    title: "Percetakan & Penerbitan Buku",
-    content: "Wujudkan naskah Anda menjadi buku berkualitas yang siap menginspirasi melalui layanan terpadu dan profesional kami.",
+    title: "Penerbitan & Percetakan Buku",
+    content: "Mewujudkan naskah Anda menjadi buku berkualitas yang siap menginspirasi pembaca melalui layanan terpadu dan profesional.",
     img: "./assets/img/banner/1.png",
   },
   {
-    title: "Penulisan & Desain Buku",
-    content: "Ubah ide cemerlang menjadi karya tulis profesional dengan layanan penulisan fleksibel dan desain sampul yang memikat.",
+    title: "Pelatihan Pengajar Guru",
+    content: "Meningkatkan kompetensi pendidik untuk menciptakan generasi unggul melalui program pelatihan yang relevan, praktis, dan interaktif.",
     img: "./assets/img/banner/2.png",
   },
   {
-    title: "Produksi Video Pembelajaran",
-    content: "Hadirkan materi ajar yang lebih menarik dan interaktif dengan video pembelajaran berkualitas dari studio kami.",
-    img: "./assets/img/banner/3.png",
+    title: "Penulisan & Desain Buku",
+    content: "Mengubah ide cemerlang Anda menjadi karya tulis profesional dengan layanan penulisan fleksibel dan desain yang memikat.",
+    img: "./assets/img/banner/3.png", // Anda mungkin perlu menambahkan gambar ini
   },
   {
-    title: "Pelatihan Profesional Guru",
-    content: "Tingkatkan kompetensi mengajar melalui program pelatihan inovatif yang dirancang untuk dampak nyata di ruang kelas.",
-    img: "./assets/img/banner/4.png",
-  },
-  {
-    title: "Bimbingan Belajar (SD-SMA)",
-    content: "Raih prestasi akademik terbaik bersama 'Gubuk Belajar', bimbingan belajar efektif untuk jenjang SD hingga SMA.",
-    img: "./assets/img/banner/5.png",
-  },
-  {
-    title: "Distributor & Grosir Buku",
-    content: "Akses semua judul buku dari seluruh Indonesia dengan jaminan harga terbaik melalui jaringan distribusi kami yang luas.",
-    img: "./assets/img/banner/6.png",
+    title: "Distributor Buku Nasional",
+    content: "Menyebarkan ilmu dan inspirasi dengan menjangkau pembaca di seluruh penjuru Nusantara melalui jaringan distribusi yang luas.",
+    img: "./assets/img/banner/4.png", // Anda mungkin perlu menambahkan gambar ini
   },
 ];
 
@@ -87,16 +77,11 @@ const BannerOne = () => {
                           <div className='btn-wrap'>
                             <Link
                               className='btn btn-base b-animate-4'
-                              to='/service'
+                              to='https://wa.me/6281918201522"'
                             >
-                              Lihat Layanan
+                              Chat Whatsapp
                             </Link>
-                            <Link
-                              className='btn btn-white b-animate-4'
-                              to='/contact'
-                            >
-                              Hubungi Kami
-                            </Link>
+                           
                           </div>
                         </div>
                       </div>

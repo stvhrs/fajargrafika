@@ -1,5 +1,7 @@
 import React, { Fragment, Suspense, useEffect } from "react";
 import Preloader from "../elements/Preloader";
+import TabProductNineteen from "./TabProductNineteen";
+
 import SEO, { ldWebsite, ldOrganization } from "../seo";
 // import "./../assets/index.scss";
 
@@ -37,17 +39,17 @@ const HomeOne = () => {
       <Fragment><SEO  jsonLd={[
           ldWebsite({
             name: "PT Fajar Grafika",
-            alternateName: "PT. Fajar Grafika Artha Nusantara",
+            alternateName: "PT Fajar Grafika Artha Nusantara",
             url: siteUrl,
           }),
           ldOrganization({
-            name: "PT. Fajar Grafika Artha Nusantara",
+            name: "PT Fajar Grafika Artha Nusantara",
             url: siteUrl,
             logo: `${siteUrl}assets/img/favicon.png` // Ganti dengan path logo Anda
           })
         ]}
         titleTemplate="Welcome"
-        description="Percetakan & Digital Printing terbaik." title="PT. Fajar Grafika Artha Nusantara"
+        description="Percetakan & Digital Printing terbaik." title="PT Fajar Grafika Artha Nusantara"
       />
 
         <Suspense fallback={<Preloader />}>
@@ -58,9 +60,10 @@ const HomeOne = () => {
           <NavbarOne />
 
           {/* Banner One */}
-          <BannerOne />
-          <ServiceOneAll />
+          <BannerOne /><div id="layanan-kami">
 
+          <ServiceOneAll /></div>
+<TabProductNineteen/>
           {/* Feature One */}
           {/* <FeatureOne /> */}
           {/* <ServiceOne /> */}
@@ -78,7 +81,7 @@ const HomeOne = () => {
           <CounterOne />
 
           {/* Team One */}
-          <TeamOne />
+          {/* <TeamOne /> */}
 
           {/* Contact One */}
           {/* <TeamOne /> */}

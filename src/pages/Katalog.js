@@ -1,5 +1,5 @@
-import { Fragment,Suspense, useState, useEffect } from "react";
-import Paginator from "react-hooks-paginator"; 
+import { Fragment, Suspense, useState, useEffect } from "react";
+import Paginator from "react-hooks-paginator";
 import Preloader from "../elements/Preloader";
 
 import { useSelector } from "react-redux";
@@ -44,7 +44,7 @@ const Katalog = () => {
   const [currentData, setCurrentData] = useState([]);
   const [sortedProducts, setSortedProducts] = useState([]);
   const { products } = useSelector((state) => state.product);
- useEffect(() => {
+  useEffect(() => {
     import("../assets/scss/style.scss"); // dynamically load CSS
   }, []);
   const pageLimit = 16;
@@ -83,54 +83,54 @@ const Katalog = () => {
         description="Jelajahi KATALOG Lengkap Kami - Temukan Berbagai Genre dan Topik " canonical="https://www.fajargrafika.com/katalog"
       />
       {/* breadcrumb */}
-         <Suspense fallback={<Preloader />}>
-          {/* Search Popup */}
-          <SearchPopup />
-          <NavbarOne />
+      <Suspense fallback={<Preloader />}>
+        {/* Search Popup */}
+        <SearchPopup />
+        <NavbarOne />
 
-          {/* Navbar One */}
-         <Breadcrumb title={"KATALOG"}
-     
-      />
-      <div className="shop-area pt-30 pb-100">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3">
-              {/* shop sidebar */}
-              <ShopSidebar
-                products={products}
-                getSortParams={getSortParams}
-                sideSpaceClass="mr-30"
-              />
-            </div>
-            <div className="col-lg-9">
-              {/* shop topbar default */}
-              <ShopTopbar
-                getLayout={getLayout}
-                getFilterSortParams={getFilterSortParams}
-                productCount={products.length}
-                sortedProductCount={currentData.length}
-              />
-              {/* shop page content default */}
-              <ShopProducts layout={layout} products={currentData} />
-              {/* shop product pagination */}
-              <div className="pro-pagination-style text-center mt-30">
-                <Paginator
-                  totalRecords={sortedProducts.length}
-                  pageLimit={pageLimit}
-                  pageNeighbours={2}
-                  setOffset={setOffset}
-                  currentPage={currentPage}
-                  setCurrentPage={setCurrentPage}
-                  pageContainerClass="mb-0 mt-0"
-                  pagePrevText="«"
-                  pageNextText="»"
+        {/* Navbar One */}
+        <Breadcrumb title={"KATALOG"}
+
+        />
+        <div className="shop-area pt-30 pb-100">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-3">
+                {/* shop sidebar */}
+                <ShopSidebar
+                  products={products}
+                  getSortParams={getSortParams}
+                  sideSpaceClass="mr-30"
                 />
+              </div>
+              <div className="col-lg-9">
+                {/* shop topbar default */}
+                <ShopTopbar
+                  getLayout={getLayout}
+                  getFilterSortParams={getFilterSortParams}
+                  productCount={products.length}
+                  sortedProductCount={currentData.length}
+                />
+                {/* shop page content default */}
+                <ShopProducts layout={layout} products={currentData} />
+                {/* shop product pagination */}
+                <div className="pro-pagination-style text-center mt-30">
+                  <Paginator
+                    totalRecords={sortedProducts.length}
+                    pageLimit={pageLimit}
+                    pageNeighbours={2}
+                    setOffset={setOffset}
+                    currentPage={currentPage}
+                    setCurrentPage={setCurrentPage}
+                    pageContainerClass="mb-0 mt-0"
+                    pagePrevText="«"
+                    pageNextText="»"
+                  />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>  </Suspense>
+        </div>  </Suspense>
     </Fragment>
   );
 };
