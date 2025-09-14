@@ -19,7 +19,7 @@ const ProductCollection = ({
       <div className="container">
         {/* Section title */}
         <SectionTitleSeven
-          titleText="BUKU TERBITAN KAMI"
+          titleText="BUKU KAMI"
           subTitleText="Temukan koleksi buku Elkapede terbaru kami yang dirancang untuk mendukung pembelajaran."
           positionClass="text-center"
           borderClass="bottom-border"

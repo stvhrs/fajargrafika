@@ -2,8 +2,8 @@
 import PropTypes from "prop-types";
 import { Helmet } from "react-helmet-async";
 
-// Helper untuk mengubah objek menjadi string JSON
-const toJson = (obj) => JSON.stringify(obj, null, 2);
+// Helper untuk mengubah objek menjadi string JSON (lebih efisien tanpa spasi di production)
+const toJson = (obj) => JSON.stringify(obj, null, 0);
 
 // Helper untuk menghapus properti yang kosong dari objek JSON-LD
 const prune = (obj) =>
@@ -35,8 +35,8 @@ export const ldOrganization = ({ name, url, logo }) =>
 
 const SEO = ({
   // defaults
-  title = "PT. Fajar Grafika Artha Nusantara",
-  titleTemplate = "Percetakan dan Penerbit",
+  title = "Percetakan dan Penerbit",
+  titleTemplate = "PT. Fajar Grafika Artha Nusantara", // Diubah agar lebih konsisten
   description = "Plupuh, Sragen, Jawa Tengah, Indonesia",
   keywords = "penerbit, percetakan, Fajar Grafika, buku, poster, kalender,pt,fajar,grafika,artha,nusantara",
   canonical = "https://www.fajargrafika.com/",
@@ -51,22 +51,34 @@ const SEO = ({
 
   return (
     <Helmet>
-      {/* Meta tag dasar Anda (sudah benar) */}
+      {/* Meta tag dasar */}
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <meta name="author" content={author} />
       <link rel="canonical" href={canonical} />
-      {/* ... tag Open Graph dan Twitter Anda ... */}
+
+      {/* --- Open Graph (Lengkap) --- */}
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={url} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
-      <meta property="og:url" content={url} />
-      {/* ... dll ... */}
+      <meta property="og:image:alt" content={title || titleTemplate} />
+      {/* TAMBAHKAN INI: Menetapkan nama situs secara eksplisit */}
+      <meta property="og:site_name" content={titleTemplate} />
 
-      {/* Bagian Baru: Menyuntikkan JSON-LD */}
+      {/* --- Twitter Card (Lengkap) --- */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={fullTitle} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={image} />
+
+      {/* Menyuntikkan JSON-LD */}
       {jsonLd
-        .filter(Boolean) // Filter item yang mungkin null/undefined
+        .filter(Boolean)
         .map((obj, idx) => (
           <script
             key={idx}
@@ -87,7 +99,6 @@ SEO.propTypes = {
   image: PropTypes.string,
   url: PropTypes.string,
   author: PropTypes.string,
-  // PropType baru
   jsonLd: PropTypes.arrayOf(PropTypes.object),
 };
 

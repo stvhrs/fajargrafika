@@ -37,10 +37,13 @@ export const ldBreadcrumb = (items = []) =>
  * JSON-LD: Product
  * options:
  * - name, description, images[], sku, brand, url
- * - price (number), priceCurrency (default "IDR"), availability, condition
+ * - mpn (Manufacturer Part Number)
+ * - price (number), priceCurrency, availability, condition, priceValidUntil
  * - ratingValue (1..5), reviewCount (int)
- * - category (array of strings) -> goes to "category" & "additionalProperty"
- */
+ * - review (object for a single review)
+ * - category (array of strings)
+ */// Di dalam file seo_p.jsx atau SEOProduct.jsx
+
 export const ldProduct = ({
   name,
   description,
@@ -48,32 +51,50 @@ export const ldProduct = ({
   sku,
   brand,
   url,
+  
+  // Harga
   price,
+  salePrice, // BARU
   priceCurrency = "IDR",
-  availability = "https://schema.org/InStock",
-  condition = "https://schema.org/NewCondition",
+  
+  // Rating
   ratingValue,
   reviewCount,
-  category = [],
-}) =>
-  prune({
+  
+  // Ketersediaan
+  availability = "https://schema.org/InStock",
+  condition = "https://schema.org/NewCondition",
+  
+  // Properti Buku
+  authorName,
+  publisherName,
+  isbn,
+  numberOfPages,
+  bookFormat, // BARU: e.g., Paperback, Hardcover
+  weight, // BARU: e.g., { value: 200, unit: "GRM" }
+}) => {
+  const isBook = authorName || publisherName || isbn || numberOfPages;
+  const currentPrice = salePrice || price; // Utamakan harga diskon
+
+  return prune({
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": isBook ? "Book" : "Product",
     name,
     description,
     sku,
     image: images,
     brand: brand ? { "@type": "Brand", name: brand } : undefined,
     url,
-    category: category.join(" / "),
-    additionalProperty:
-      category?.length
-        ? category.map((c) => ({
-            "@type": "PropertyValue",
-            name: "Category",
-            value: c,
-          }))
-        : undefined,
+    
+    // Properti spesifik buku
+    author: authorName ? { "@type": "Person", name: authorName } : undefined,
+    publisher: publisherName ? { "@type": "Organization", name: publisherName } : undefined,
+    isbn,
+    numberOfPages,
+    bookFormat: bookFormat ? `https://schema.org/${bookFormat}` : undefined,
+    weight: weight ? { "@type": "QuantitativeValue", value: weight.value, unitCode: weight.unit } : undefined,
+
+    // Rating
     aggregateRating:
       ratingValue !== undefined && reviewCount !== undefined
         ? {
@@ -81,22 +102,24 @@ export const ldProduct = ({
             ratingValue,
             ratingCount: reviewCount,
             bestRating: 5,
-            worstRating: 1,
           }
         : undefined,
+        
+    // Penawaran
     offers:
-      price !== undefined
+      currentPrice !== undefined
         ? {
             "@type": "Offer",
-            price: Number(price),
+            url,
+            price: Number(currentPrice),
             priceCurrency,
             availability,
             itemCondition: condition,
-            url,
+            sku,
           }
         : undefined,
   });
-
+};
 /**
  * Optional JSON-LD helpers (pakai kalau perlu)
  */
@@ -126,10 +149,6 @@ export const ldOrganization = ({ name, url, logo } = {}) =>
 
 /**
  * SEOProduct component
- * - set <title> (dengan template)
- * - meta OG/Twitter
- * - <link rel="canonical">
- * - inject JSON-LD (array)
  */
 const SEOProduct = ({
   // defaults
@@ -142,7 +161,7 @@ const SEOProduct = ({
   url = "https://www.fajargrafika.com/",
   author = "PT. Fajar Grafika Artha Nusantara",
 
-  // JSON-LD array (gunakan ldProduct/ldBreadcrumb/ldWebsite/ldOrganization)
+  // JSON-LD array
   jsonLd = [],
 }) => {
   const fullTitle = title ? `${title} | ${titleTemplate}` : titleTemplate;

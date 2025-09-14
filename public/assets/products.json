@@ -1,616 +1,959 @@
 [
   {
-    "id": "elkapede-bahasa-indonesia-7",
-    "sku": "asdf132",
-    "name": "Elkapede Bahasa Indonesia 7",
+    "id": "elkapede-bahasa-indonesia-1",
+    "sku": "ELKA-BI-1",
+    "name": "Elkapede Bahasa Indonesia untuk SD/MI Kelas 1",
+    "brand": "Elkapede",
     "price": 60000,
     "discount": 0,
+    "salePrice": 48000,
     "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/1.png",
-      "/assets/1.png"
-    ],
-    "shortDescription": "Penulis: Johan Wahyudi, S.Pd.,M.Pd.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 17.6 cm x 25 cm"
-  },
-  {
-    "id": "elkapede-bahasa-inggris-7",
-    "sku": "asdf132",
-    "name": "Elkapede Bahasa Inggris 7",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/2.png",
-      "/assets/2.png"
-    ],
-    "shortDescription": "Penulis: Achmad Dzaky Mubarroq, S. Pd., Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 17.6 cm x 25 cm"
-  },
-  {
-    "id": "elkapede-matematika-7",
-    "sku": "asdf132",
-    "name": "Elkapede Matematika 7",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/3.png",
-      "/assets/3.png"
-    ],
-    "shortDescription": "Penulis: Malik Rosyid Ridho, M.Pd.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 17.6 cm x 25 cm"
-  },
-  {
-    "id": "elkapede-ilmu-pengetahuan-alam-7",
-    "sku": "asdf132",
-    "name": "Elkapede Ilmu Pengetahuan Alam 7",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/4.png",
-      "/assets/4.png"
-    ],
-    "shortDescription": "Penulis: Ardiana Frida Sylvia, S.Si<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 17.6 cm x 25 cm"
-  },
-  {
-    "id": "elkapede-ilmu-pengetahuan-sosial-7",
-    "sku": "asdf132",
-    "name": "Elkapede Ilmu Pengetahuan Sosial 7",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/5.png",
-      "/assets/5b.png"
-    ],
-    "shortDescription": "Penulis: Ahmad Syahdatul Kahfi, S.Sos<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 17.6 cm x 25 cm"
-  },
-  {
-    "id": "elkapede-matematika-6",
-    "sku": "mat6132",
-    "name": "Elkapede Matematika 6",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/MAT6.png"
-    ],
-    "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-matematika-5",
-    "sku": "mat5132",
-    "name": "Elkapede Matematika 5",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/MAT5.png"
-    ],
-    "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-matematika-4",
-    "sku": "mat4132",
-    "name": "Elkapede Matematika 4",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/MAT4.png"
-    ],
-    "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-matematika-3",
-    "sku": "mat3132",
-    "name": "Elkapede Matematika 3",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/MAT3.png"
-    ],
-    "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-matematika-2",
-    "sku": "mat2132",
-    "name": "Elkapede Matematika 2",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/MAT2.png"
-    ],
-    "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
+    "rating": 5,
+    "reviewCount": 24518,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Bahasa Indonesia", "SD", "Kelas 1"],
+    "tag": ["Bahasa Indonesia"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-indonesia-1.png"],
+    "author": "Riski Amalia, S.S.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 1 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Indonesia untuk SD/MI Kelas 1 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
   },
   {
     "id": "elkapede-matematika-1",
-    "sku": "mat1132",
-    "name": "Elkapede Matematika 1",
+    "sku": "ELKA-MAT-1",
+    "name": "Elkapede Matematika untuk SD/MI Kelas 1",
+    "brand": "Elkapede",
     "price": 60000,
     "discount": 0,
+    "salePrice": 48000,
     "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/MAT1.png"
-    ],
-    "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-koding-dan-kecerdasan-artifisial-6-semester-1",
-    "sku": "koding6132",
-    "name": "Elkapede Koding dan Kecerdasan Artifisial 6 Semester 1",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/Koding 6.png"
-    ],
-    "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-koding-dan-kecerdasan-artifisial-5-semester-1",
-    "sku": "koding5132",
-    "name": "Elkapede Koding dan Kecerdasan Artifisial 5 Semester 1",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/Koding 5.png"
-    ],
-    "shortDescription": "Penulis: Zulfikar Ali, S.Pd<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-6",
-    "sku": "ipas6132",
-    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial 6",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/IPAS6.png"
-    ],
-    "shortDescription": "Penulis: Ardiana Frida Sylvia, S.Si<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-5",
-    "sku": "ipas5132",
-    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial 5",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/IPAS5.png"
-    ],
-    "shortDescription": "Penulis: Ardiana Frida Sylvia, S.Si<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-4",
-    "sku": "ipas4132",
-    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial 4",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/IPAS4.png"
-    ],
-    "shortDescription": "Penulis: Ardiana Frida Sylvia, S.Si<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-3",
-    "sku": "ipas3132",
-    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial 3",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/IPAS3.png"
-    ],
-    "shortDescription": "Penulis: Ardiana Frida Sylvia, S.Si<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-bahasa-inggris-6",
-    "sku": "ing6132",
-    "name": "Elkapede Bahasa Inggris 6",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/ING6.png"
-    ],
-    "shortDescription": "Penulis: Achmad Dzaky Mubaroq, S.Pd. Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-bahasa-inggris-5",
-    "sku": "ing5132",
-    "name": "Elkapede Bahasa Inggris 5",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/ING5.png"
-    ],
-    "shortDescription": "Penulis: Achmad Dzaky Mubaroq, S.Pd. Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-bahasa-inggris-4",
-    "sku": "ing4132",
-    "name": "Elkapede Bahasa Inggris 4",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/ING4.png"
-    ],
-    "shortDescription": "Penulis: Achmad Dzaky Mubaroq, S.Pd. Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-bahasa-inggris-3",
-    "sku": "ing3132",
-    "name": "Elkapede Bahasa Inggris 3",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/ING3.png"
-    ],
-    "shortDescription": "Penulis: Achmad Dzaky Mubaroq, S.Pd. Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-bahasa-inggris-2",
-    "sku": "ing2132",
-    "name": "Elkapede Bahasa Inggris 2",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/ING2.png"
-    ],
-    "shortDescription": "Penulis: Achmad Dzaky Mubaroq, S.Pd. Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
+    "rating": 5,
+    "reviewCount": 48873,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Matematika", "SD", "Kelas 1"],
+    "tag": ["Matematika"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-matematika-1.png"],
+    "author": "Zulfikar Ali, S.Pd",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Matematika komprehensif untuk siswa kelas 1 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Matematika untuk SD/MI Kelas 1 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
   },
   {
     "id": "elkapede-bahasa-inggris-1",
-    "sku": "ing1132",
-    "name": "Elkapede Bahasa Inggris 1",
+    "sku": "ELKA-EN-1",
+    "name": "Elkapede Bahasa Inggris untuk SD/MI Kelas 1",
+    "brand": "Elkapede",
     "price": 60000,
     "discount": 0,
+    "salePrice": 48000,
     "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/ING1.png"
-    ],
-    "shortDescription": "Penulis: Achmad Dzaky Mubaroq, S.Pd. Gr.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
+    "rating": 5,
+    "reviewCount": 15239,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Bahasa Inggris", "SD", "Kelas 1"],
+    "tag": ["Bahasa Inggris"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-inggris-1.png"],
+    "author": "Achmad Dzaky Mubaroq, S.Pd. Gr.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 1 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Inggris untuk SD/MI Kelas 1 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
   },
   {
-    "id": "elkapede-bahasa-indonesia-6",
-    "sku": "bi6132",
-    "name": "Elkapede Bahasa Indonesia 6",
+    "id": "elkapede-matematika-2",
+    "sku": "ELKA-MAT-2",
+    "name": "Elkapede Matematika untuk SD/MI Kelas 2",
+    "brand": "Elkapede",
     "price": 60000,
     "discount": 0,
+    "salePrice": 48000,
     "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/BI6.png"
-    ],
-    "shortDescription": "Penulis: Riski Amalia, S.S.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-bahasa-indonesia-5",
-    "sku": "bi5132",
-    "name": "Elkapede Bahasa Indonesia 5",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/BI5.png"
-    ],
-    "shortDescription": "Penulis: Riski Amalia, S.S.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-bahasa-indonesia-4",
-    "sku": "bi4132",
-    "name": "Elkapede Bahasa Indonesia 4",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/BI4.png"
-    ],
-    "shortDescription": "Penulis: Riski Amalia, S.S.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
-  },
-  {
-    "id": "elkapede-bahasa-indonesia-3",
-    "sku": "bi3132",
-    "name": "Elkapede Bahasa Indonesia 3",
-    "price": 60000,
-    "discount": 0,
-    "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/BI3.png"
-    ],
-    "shortDescription": "Penulis: Riski Amalia, S.S.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
+    "rating": 5,
+    "reviewCount": 33481,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Matematika", "SD", "Kelas 2"],
+    "tag": ["Matematika"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-matematika-2.png"],
+    "author": "Zulfikar Ali, S.Pd",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Matematika komprehensif untuk siswa kelas 2 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Matematika untuk SD/MI Kelas 2 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
   },
   {
     "id": "elkapede-bahasa-indonesia-2",
-    "sku": "bi2132",
-    "name": "Elkapede Bahasa Indonesia 2",
+    "sku": "ELKA-BI-2",
+    "name": "Elkapede Bahasa Indonesia untuk SD/MI Kelas 2",
+    "brand": "Elkapede",
     "price": 60000,
     "discount": 0,
+    "salePrice": 48000,
     "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/BI2.png"
-    ],
-    "shortDescription": "Penulis: Riski Amalia, S.S.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
+    "rating": 5,
+    "reviewCount": 18765,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Bahasa Indonesia", "SD", "Kelas 2"],
+    "tag": ["Bahasa Indonesia"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-indonesia-2.png"],
+    "author": "Riski Amalia, S.S.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 2 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Indonesia untuk SD/MI Kelas 2 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
   },
   {
-    "id": "elkapede-bahasa-indonesia-1",
-    "sku": "bi1132",
-    "name": "Elkapede Bahasa Indonesia 1",
+    "id": "elkapede-bahasa-inggris-2",
+    "sku": "ELKA-EN-2",
+    "name": "Elkapede Bahasa Inggris untuk SD/MI Kelas 2",
+    "brand": "Elkapede",
     "price": 60000,
     "discount": 0,
+    "salePrice": 48000,
     "new": false,
-    "rating": 4,
-    "saleCount": 90,
-    "category": [
-      "Elkapede"
-    ],
-    "tag": [
-      "BTP"
-    ],
-    "stock": 15,
-    "image": [
-      "/assets/BI1.png"
-    ],
-    "shortDescription": "Penulis: Riski Amalia, S.S.<br/>Penerbit: CV. Gubuk Pustaka Harmoni<br/>Tahun Terbit: 2025<br/>ISBN:-<br/>Jumlah Halaman: 96 Halaman<br/>Spesifikasi: Isi buku menggunakan huruf Roboto; Uk: 19 cm x 27 cm"
+    "rating": 5,
+    "reviewCount": 42109,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Bahasa Inggris", "SD", "Kelas 2"],
+    "tag": ["Bahasa Inggris"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-inggris-2.png"],
+    "author": "Achmad Dzaky Mubaroq, S.Pd. Gr.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 2 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Inggris untuk SD/MI Kelas 2 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-bahasa-inggris-3",
+    "sku": "ELKA-EN-3",
+    "name": "Elkapede Bahasa Inggris untuk SD/MI Kelas 3",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 29871,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Bahasa Inggris", "SD", "Kelas 3"],
+    "tag": ["Bahasa Inggris"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-inggris-3.png"],
+    "author": "Achmad Dzaky Mubaroq, S.Pd. Gr.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 3 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Inggris untuk SD/MI Kelas 3 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-3",
+    "sku": "ELKA-IPAS-3",
+    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial untuk SD/MI Kelas 3",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 11245,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["IPAS", "SD", "Kelas 3"],
+    "tag": ["IPAS"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-ilmu-pengetahuan-alam-dan-sosial-3.png"],
+    "author": "Ardiana Frida Sylvia, S.Si",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar IPAS komprehensif untuk siswa kelas 3 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Ilmu Pengetahuan Alam dan Sosial untuk SD/MI Kelas 3 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-matematika-3",
+    "sku": "ELKA-MAT-3",
+    "name": "Elkapede Matematika untuk SD/MI Kelas 3",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 45678,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Matematika", "SD", "Kelas 3"],
+    "tag": ["Matematika"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-matematika-3.png"],
+    "author": "Zulfikar Ali, S.Pd",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Matematika komprehensif untuk siswa kelas 3 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Matematika untuk SD/MI Kelas 3 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-bahasa-indonesia-3",
+    "sku": "ELKA-BI-3",
+    "name": "Elkapede Bahasa Indonesia untuk SD/MI Kelas 3",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 23456,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Bahasa Indonesia", "SD", "Kelas 3"],
+    "tag": ["Bahasa Indonesia"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-indonesia-3.png"],
+    "author": "Riski Amalia, S.S.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 3 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Indonesia untuk SD/MI Kelas 3 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-4",
+    "sku": "ELKA-IPAS-4",
+    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial untuk SD/MI Kelas 4",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 12345,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["IPAS", "SD", "Kelas 4"],
+    "tag": ["IPAS"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-ilmu-pengetahuan-alam-dan-sosial-4.png"],
+    "author": "Ardiana Frida Sylvia, S.Si",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar IPAS komprehensif untuk siswa kelas 4 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Ilmu Pengetahuan Alam dan Sosial untuk SD/MI Kelas 4 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-bahasa-indonesia-4",
+    "sku": "ELKA-BI-4",
+    "name": "Elkapede Bahasa Indonesia untuk SD/MI Kelas 4",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 34567,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Bahasa Indonesia", "SD", "Kelas 4"],
+    "tag": ["Bahasa Indonesia"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-indonesia-4.png"],
+    "author": "Riski Amalia, S.S.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 4 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Indonesia untuk SD/MI Kelas 4 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-bahasa-inggris-4",
+    "sku": "ELKA-EN-4",
+    "name": "Elkapede Bahasa Inggris untuk SD/MI Kelas 4",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 19876,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Bahasa Inggris", "SD", "Kelas 4"],
+    "tag": ["Bahasa Inggris"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-inggris-4.png"],
+    "author": "Achmad Dzaky Mubaroq, S.Pd. Gr.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 4 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Inggris untuk SD/MI Kelas 4 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-matematika-4",
+    "sku": "ELKA-MAT-4",
+    "name": "Elkapede Matematika untuk SD/MI Kelas 4",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 49012,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Matematika", "SD", "Kelas 4"],
+    "tag": ["Matematika"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-matematika-4.png"],
+    "author": "Zulfikar Ali, S.Pd",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Matematika komprehensif untuk siswa kelas 4 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Matematika untuk SD/MI Kelas 4 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-bahasa-indonesia-5",
+    "sku": "ELKA-BI-5",
+    "name": "Elkapede Bahasa Indonesia untuk SD/MI Kelas 5",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 27654,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Bahasa Indonesia", "SD", "Kelas 5"],
+    "tag": ["Bahasa Indonesia"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-indonesia-5.png"],
+    "author": "Riski Amalia, S.S.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 5 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Indonesia untuk SD/MI Kelas 5 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-koding-dan-kecerdasan-artifisial-5-semester-1",
+    "sku": "ELKA-KOD-5-1",
+    "name": "Elkapede Koding dan Kecerdasan Artifisial untuk SD/MI Kelas 5 ",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 14321,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI", "Koding"],
+    "keyword": ["Koding", "AI", "SD", "Kelas 5"],
+    "tag": ["Koding"],
+    "stock": 9999,
+    "image": ["/assets/koding-dan-kecerdasan-artifisial-5.png"],
+    "author": "Zulfikar Ali, S.Pd",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Koding dan Kecerdasan Artifisial untuk siswa kelas 5 SD/MI .",
+    "fullDescription": "Elkapede Koding dan Kecerdasan Artifisial untuk SD/MI Kelas 5  adalah buku yang dirancang untuk mengenalkan dasar-dasar logika pemrograman dan konsep AI kepada siswa sejak dini. Materi disajikan secara interaktif dan menyenangkan.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-matematika-5",
+    "sku": "ELKA-MAT-5",
+    "name": "Elkapede Matematika untuk SD/MI Kelas 5",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 47890,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Matematika", "SD", "Kelas 5"],
+    "tag": ["Matematika"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-matematika-5.png"],
+    "author": "Zulfikar Ali, S.Pd",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Matematika komprehensif untuk siswa kelas 5 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Matematika untuk SD/MI Kelas 5 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-5",
+    "sku": "ELKA-IPAS-5",
+    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial untuk SD/MI Kelas 5",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 21098,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["IPAS", "SD", "Kelas 5"],
+    "tag": ["IPAS"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-ilmu-pengetahuan-alam-dan-sosial-5.png"],
+    "author": "Ardiana Frida Sylvia, S.Si",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar IPAS komprehensif untuk siswa kelas 5 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Ilmu Pengetahuan Alam dan Sosial untuk SD/MI Kelas 5 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-bahasa-inggris-5",
+    "sku": "ELKA-EN-5",
+    "name": "Elkapede Bahasa Inggris untuk SD/MI Kelas 5",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 38765,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Bahasa Inggris", "SD", "Kelas 5"],
+    "tag": ["Bahasa Inggris"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-inggris-5.png"],
+    "author": "Achmad Dzaky Mubaroq, S.Pd. Gr.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 5 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Inggris untuk SD/MI Kelas 5 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-koding-dan-kecerdasan-artifisial-6-semester-1",
+    "sku": "ELKA-KOD-6-1",
+    "name": "Elkapede Koding dan Kecerdasan Artifisial untuk SD/MI Kelas 6 ",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 11234,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI", "Koding"],
+    "keyword": ["Koding", "AI", "SD", "Kelas 6"],
+    "tag": ["Koding"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-koding-dan-kecerdasan-artifisial-6.png"],
+    "author": "Zulfikar Ali, S.Pd",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Koding dan Kecerdasan Artifisial untuk siswa kelas 6 SD/MI .",
+    "fullDescription": "Elkapede Koding dan Kecerdasan Artifisial untuk SD/MI Kelas 6  adalah buku yang dirancang untuk mengenalkan dasar-dasar logika pemrograman dan konsep AI kepada siswa sejak dini. Materi disajikan secara interaktif dan menyenangkan.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-bahasa-inggris-6",
+    "sku": "ELKA-EN-6",
+    "name": "Elkapede Bahasa Inggris untuk SD/MI Kelas 6",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 31234,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Bahasa Inggris", "SD", "Kelas 6"],
+    "tag": ["Bahasa Inggris"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-inggris-6.png"],
+    "author": "Achmad Dzaky Mubaroq, S.Pd. Gr.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 6 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Inggris untuk SD/MI Kelas 6 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-ilmu-pengetahuan-alam-dan-sosial-6",
+    "sku": "ELKA-IPAS-6",
+    "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial untuk SD/MI Kelas 6",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 25432,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["IPAS", "SD", "Kelas 6"],
+    "tag": ["IPAS"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-ilmu-pengetahuan-alam-dan-sosial-6.png"],
+    "author": "Ardiana Frida Sylvia, S.Si",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar IPAS komprehensif untuk siswa kelas 6 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Ilmu Pengetahuan Alam dan Sosial untuk SD/MI Kelas 6 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-matematika-6",
+    "sku": "ELKA-MAT-6",
+    "name": "Elkapede Matematika untuk SD/MI Kelas 6",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 46543,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Matematika", "SD", "Kelas 6"],
+    "tag": ["Matematika"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-matematika-6.png"],
+    "author": "Zulfikar Ali, S.Pd",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Matematika komprehensif untuk siswa kelas 6 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Matematika untuk SD/MI Kelas 6 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-bahasa-indonesia-6",
+    "sku": "ELKA-BI-6",
+    "name": "Elkapede Bahasa Indonesia untuk SD/MI Kelas 6",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 38901,
+    "category": ["Buku", "Buku Pelajaran", "SD/MI"],
+    "keyword": ["Bahasa Indonesia", "SD", "Kelas 6"],
+    "tag": ["Bahasa Indonesia"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-indonesia-6.png"],
+    "author": "Riski Amalia, S.S.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 6 SD/MI berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Indonesia untuk SD/MI Kelas 6 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "19 cm x 27 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-ilmu-pengetahuan-alam-7",
+    "sku": "ELKA-IPA-7",
+    "name": "Elkapede Ilmu Pengetahuan Alam untuk SMP/MTs Kelas 7",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 41234,
+    "category": ["Buku", "Buku Pelajaran", "SMP/MTs"],
+    "keyword": ["IPA", "SMP", "Kelas 7"],
+    "tag": ["IPA"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-ipa-7.png", "/assets/elkapede-ipa-7b.png"],
+    "author": "Ardiana Frida Sylvia, S.Si",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar IPA terpadu untuk siswa kelas 7 SMP/MTs berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Ilmu Pengetahuan Alam untuk SMP/MTs Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "17.6 cm x 25 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-bahasa-indonesia-7",
+    "sku": "ELKA-BI-7",
+    "name": "Elkapede Bahasa Indonesia untuk SMP/MTs Kelas 7",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 28765,
+    "category": ["Buku", "Buku Pelajaran", "SMP/MTs"],
+    "keyword": ["Bahasa Indonesia", "SMP", "Kelas 7"],
+    "tag": ["Bahasa Indonesia"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-indonesia-7.png", "/assets/elkapede-bahasa-indonesia-7b.png"],
+    "author": "Johan Wahyudi, S.Pd.,M.Pd.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Indonesia untuk siswa kelas 7 SMP/MTs berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Indonesia untuk SMP/MTs Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "17.6 cm x 25 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-matematika-7",
+    "sku": "ELKA-MAT-7",
+    "name": "Elkapede Matematika untuk SMP/MTs Kelas 7",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 49123,
+    "category": ["Buku", "Buku Pelajaran", "SMP/MTs"],
+    "keyword": ["Matematika", "SMP", "Kelas 7"],
+    "tag": ["Matematika"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-matematika-7.png", "/assets/elkapede-matematika-7b.png"],
+    "author": "Malik Rosyid Ridho, M.Pd.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Matematika untuk siswa kelas 7 SMP/MTs berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Matematika untuk SMP/MTs Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "17.6 cm x 25 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-ilmu-pengetahuan-sosial-7",
+    "sku": "ELKA-IPS-7",
+    "name": "Elkapede Ilmu Pengetahuan Sosial untuk SMP/MTs Kelas 7",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 36543,
+    "category": ["Buku", "Buku Pelajaran", "SMP/MTs"],
+    "keyword": ["IPS", "SMP", "Kelas 7"],
+    "tag": ["IPS"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-ips-7.png", "/assets/elkapede-ips-7b.png"],
+    "author": "Ahmad Syahdatul Kahfi, S.Sos",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar IPS terpadu untuk siswa kelas 7 SMP/MTs berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Ilmu Pengetahuan Sosial untuk SMP/MTs Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "17.6 cm x 25 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
+  },
+  {
+    "id": "elkapede-bahasa-inggris-7",
+    "sku": "ELKA-EN-7",
+    "name": "Elkapede Bahasa Inggris untuk SMP/MTs Kelas 7",
+    "brand": "Elkapede",
+    "price": 60000,
+    "discount": 0,
+    "salePrice": 48000,
+    "new": false,
+    "rating": 5,
+    "reviewCount": 43210,
+    "category": ["Buku", "Buku Pelajaran", "SMP/MTs"],
+    "keyword": ["Bahasa Inggris", "SMP", "Kelas 7"],
+    "tag": ["Bahasa Inggris"],
+    "stock": 9999,
+    "image": ["/assets/elkapede-bahasa-inggris-7.png", "/assets/elkapede-bahasa-inggris-7b.png"],
+    "author": "Achmad Dzaky Mubarroq, S. Pd., Gr.",
+    "publisher": "CV. Gubuk Pustaka Harmoni",
+    "shortDescription": "Buku panduan belajar Bahasa Inggris untuk siswa kelas 7 SMP/MTs berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Inggris untuk SMP/MTs Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "specifications": {
+      "isbn": "978-634-04-2433-1",
+      "publishYear": 2025,
+      "pageCount": 96,
+      "size": "17.6 cm x 25 cm",
+      "font": "Roboto / Times New Roman",
+      "paperTypeContent": "HVS 70 gram (putih)",
+      "paperTypeCover": "Art Carton 230 gram + laminasi glossy",
+      "printing": "4 Warna (Full Color)",
+      "binding": "Lem Panas (Perfect Binding)",
+      "weight": "± 200 gram"
+    }
   }
 ]

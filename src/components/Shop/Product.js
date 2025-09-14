@@ -1,37 +1,63 @@
 import React, { Fragment, Suspense } from "react";
 import { useSelector } from "react-redux";
-import { useParams, useLocation } from "react-router-dom";
-import SEO from "../../seo";
+import { useParams } from "react-router-dom";
 import Preloader from "../../elements/Preloader";
 
 import SEOProduct, { ldProduct, ldBreadcrumb } from "./seo_products/seo_p";
-
 import ProductImageDescription from "./ProductImageDescription";
 const Breadcrumb = React.lazy(() => import("../Breadcrumb"));
+
 const ORIGIN = "https://www.fajargrafika.com";
+
+// Helper untuk URL absolut
 const abs = (rel) => (rel?.startsWith("http") ? rel : `${ORIGIN}${rel}`);
-const stripHtml = (html = "") =>
-  html.replace(/<br\s*\/?>/gi, " ").replace(/<[^>]*>/g, "").trim();
+
+// BARU: Helper untuk mem-parsing berat buku (e.g., "± 200 gram" -> { value: 200, unit: "GRM" })
+const parseWeight = (weightString = "") => {
+  const match = weightString.match(/(\d+)\s*gram/i);
+  if (match) {
+    return { value: parseInt(match[1], 10), unit: "GRM" };
+  }
+  return null;
+};
+
+// BARU: Helper untuk memetakan jenis jilid ke tipe schema
+const getBookFormat = (bindingString = "") => {
+  if (bindingString.toLowerCase().includes("lem panas") || bindingString.toLowerCase().includes("perfect binding")) {
+    return "Paperback";
+  }
+  return null;
+};
+
+
 const Product = () => {
-  let { pathname } = useLocation();
   let { id } = useParams();
   const { products } = useSelector((state) => state.product);
-  const product = products.find(product => product.id === id);
+  const product = products.find(p => p.id === id);
+
+  if (!product) {
+    return <Preloader />;
+  }
+  
+  // -- Persiapan Data untuk SEO --
   const canonical = `${ORIGIN}/katalog/${product.id}/`;
   const images = (product.image || []).map(abs);
-  const descPlain = stripHtml(product.shortDescription || "");
-const NavbarOne = React.lazy(() => import("../NavbarOne"));
-
-
+  const bookWeight = parseWeight(product.specifications.weight);
+  const bookFormat = getBookFormat(product.specifications.binding);
+  
   return (
     <Fragment>
       <SEOProduct
-        title={product.name}
-        description={descPlain}               // deskripsi dari produk
-        keywords={`${product.name}, ${product.category.join(", ")}, Fajar Grafika`} // keyword dari produk
-        image={product.image[0]} // image produk
-        canonical={canonical}                 // canonical sesuai id produk
+        // --- Meta Tags Dasar ---
+        title={`${product.name} | ${product.brand}`}
+        description={product.shortDescription}
+        keywords={product.keyword.join(", ")}
+        image={images[0]}
+        author={product.author}
+        canonical={canonical}
         url={canonical}
+        
+        // --- JSON-LD Structured Data ---
         jsonLd={[
           ldBreadcrumb([
             { name: "Beranda", url: `${ORIGIN}/` },
@@ -39,48 +65,43 @@ const NavbarOne = React.lazy(() => import("../NavbarOne"));
             { name: product.name, url: canonical }
           ]),
           ldProduct({
+            // Data Umum
             name: product.name,
-            description: descPlain,
+            description: product.fullDescription,
             images,
             sku: product.sku,
-            brand: "Elkapede",
+            brand: product.brand,
             url: canonical,
+            
+            // Harga (termasuk harga diskon)
             price: product.price,
-            priceCurrency: "IDR",
-            availability:
-              product.stock > 0
-                ? "https://schema.org/InStock"
-                : "https://schema.org/OutOfStock",
-            condition: "https://schema.org/NewCondition",
-            ratingValue: 5,   // ★★★★★
-            reviewCount: 45,  // contoh: 45 review
-            category: product.category,
+            salePrice: product.salePrice,
+            
+            // Rating
+            ratingValue: product.rating,
+            reviewCount: product.reviewCount,
+            
+            // Ketersediaan
+            availability: product.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
+            
+            // Data Spesifik Buku
+            authorName: product.author,
+            publisherName: product.publisher,
+            isbn: product.specifications.isbn,
+            numberOfPages: product.specifications.pageCount,
+            weight: bookWeight,
+            bookFormat: bookFormat,
           }),
         ]}
       />
+      
       <Suspense fallback={<Preloader />}>
         <Breadcrumb title={product.name} useKatalog={true} />
-
-  {/* <NavbarOne /> */}
-
-        {/* product description with image */}
         <ProductImageDescription
           spaceTopClass="pt-100"
           spaceBottomClass="pb-100"
           product={product}
         />
-
-        {/* product description tab */}
-        {/* <ProductDescriptionTab
-          spaceBottomClass="pb-90"
-          productFullDesc={product.fullDescription}
-        /> */}
-
-        {/* related product slider */}
-        {/* <RelatedProductSlider
-          spaceBottomClass="pb-95"
-          category={product.category[0]}
-        /> */}
       </Suspense>
     </Fragment>
   );
