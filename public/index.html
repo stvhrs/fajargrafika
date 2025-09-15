@@ -6,55 +6,46 @@
   <meta name="theme-color" content="#000000" />
 
   <title>PT. Fajar Grafika Artha Nusantara</title>
-  <meta name="description" content="Fajar Grafika — Percetakan dan Penerbit. Layanan cetak buku, Penulisan Naskah, Design Layout Buku, Editoral." />
-  <link rel="canonical" href="https://www.fajargrafika.com/" />
-
-  <!-- ✅ Favicon (ICO universal) -->
-  <link rel="icon" href="https://www.fajargrafika.com/favicon.ico" type="image/x-icon" />
-
-  <!-- ✅ Manifest (optional for PWA, biarkan kalau pakai CRA build) -->
+  <meta name="description" content="Fajar Grafika — Percetakan dan Penerbit. Layanan cetak buku, Penulisan Naskah, Design Layout Buku, dan Editorial." />
+  
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-  <!-- ✅ Open Graph (Social Media Share) -->
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="PT. Fajar Grafika Artha Nusantara" />
   <meta property="og:url" content="https://www.fajargrafika.com/" />
-  <meta property="og:title" content="Fajar Grafika - Percetakan dan Penerbit" />
-  <meta property="og:description" content="Fajar Grafika — Percetakan dan Penerbit. Layanan cetak buku, Penulisan Naskah, Design Layout Buku, Editoral." />
-  <meta property="og:image" content="https://www.fajargrafika.com/og-cover.jpg" />
+  <meta property="og:title" content="PT. Fajar Grafika Artha Nusantara - Percetakan dan Penerbit" />
+  <meta property="og:description" content="Layanan cetak buku, Penulisan Naskah, Design Layout Buku, dan Editorial di Sragen, Jawa Tengah." />
+  <meta property="og:image" content="%PUBLIC_URL%/og-cover.jpg" />
+  
   <meta name="google-site-verification" content="f4nzcUKuke5EAdVTfSDtmjEwvBRIeqILj5duX31sNJ4" />
 
-  <!-- ✅ Structured Data (Organization + Logo) -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@type":"Organization",
-    "name":"Fajar Grafika",
+    "name":"PT. Fajar Grafika Artha Nusantara",
     "url":"https://www.fajargrafika.com",
-    "logo":"https://www.fajargrafika.com/favicon.ico"
+    "logo":"%PUBLIC_URL%/favicon.png" 
   }
   </script>
 
-  <!-- Google Tag Manager -->
   <script>
-  (function (w, d, s, l, i) {
-    w[l] = w[l] || []; w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
-    var f = d.getElementsByTagName(s)[0],
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+      var f = d.getElementsByTagName(s)[0],
         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-KSMSWH7');
+      j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KSMSWH7');
   </script>
-  <!-- End Google Tag Manager -->
-</head>
+  </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
   <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSMSWH7"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
   </noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
   <noscript>Anda perlu mengaktifkan JavaScript untuk menjalankan web3 ini.</noscript>
   <div id="root"></div>
 </body>
