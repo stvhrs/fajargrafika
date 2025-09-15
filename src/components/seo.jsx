@@ -152,7 +152,6 @@ const SEO = ({
       <link rel="canonical" href={canonical} />
 
       {/* Open Graph */}
-      <meta property="og:image"  content={image}/>
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url} />
       <meta property="og:title" content={fullTitle} />

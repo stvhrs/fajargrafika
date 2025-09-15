@@ -1,5 +1,5 @@
 import React, { Fragment, Suspense } from "react";
-import SEO from "../seo";
+import SEO, { ldWebsite, ldOrganization, } from "../seo";
 
 import Preloader from "../elements/Preloader";
 const Breadcrumb = React.lazy(() => import("../components/Breadcrumb"));
@@ -11,12 +11,25 @@ const FooterOne = React.lazy(() => import("../components/FooterOne"));
 const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
 const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
 const Contact = () => {
+    const siteUrl = "https://www.fajargrafika.com/contact";
+
   return (
     <>
 
-      <Fragment> <SEO title="Contact Us"
-        titleTemplate="Hubungi Kami - Fajar Grafika Artha Nusantara"
-        description="Plupuh, Sragen, Jawa Tengah, Indonesia"canonical="https://www.fajargrafika.com/contact"
+      <Fragment><SEO jsonLd={[
+        ldWebsite({
+          name: "Hubungi Kami",
+          alternateName: "PT Fajar Grafika Artha Nusantara",
+          url: siteUrl,
+        }),
+        ldOrganization({
+          name: "PT Fajar Grafika Artha Nusantara",
+          url: siteUrl,
+          logo: `${siteUrl}assets/img/favicon.png` // Ganti dengan path logo Anda
+        })
+      ]}
+        titleTemplate="Hubungi Kami"
+        description="Lokasi" title="PT Fajar Grafika Artha Nusantara"
       />
         <Suspense fallback={<Preloader />}>
           {/* Search Popup */}
