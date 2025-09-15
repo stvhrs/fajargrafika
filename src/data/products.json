@@ -4,13 +4,14 @@
     "sku": "ELKA-BI-1",
     "name": "Elkapede Bahasa Indonesia Kelas 1",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 24518,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Indonesia",
       "SD",
@@ -25,7 +26,7 @@
     ],
     "author": "Riski Amalia, S.S.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 1 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 1 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Bahasa Indonesia Kelas 1 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -45,13 +46,14 @@
     "sku": "ELKA-MAT-1",
     "name": "Elkapede Matematika Kelas 1",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 48873,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Matematika",
       "SD",
@@ -66,7 +68,7 @@
     ],
     "author": "Zulfikar Ali, S.Pd",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Matematika komprehensif untuk siswa kelas 1 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Matematika komprehensif untuk siswa kelas 1 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Matematika Kelas 1 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -86,13 +88,14 @@
     "sku": "ELKA-EN-1",
     "name": "Elkapede Bahasa Inggris Kelas 1",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 15239,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Inggris",
       "SD",
@@ -107,7 +110,7 @@
     ],
     "author": "Achmad Dzaky Mubaroq, S.Pd. Gr.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 1 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 1 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Bahasa Inggris Kelas 1 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -127,13 +130,14 @@
     "sku": "ELKA-MAT-2",
     "name": "Elkapede Matematika Kelas 2",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 33481,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Matematika",
       "SD",
@@ -148,7 +152,7 @@
     ],
     "author": "Zulfikar Ali, S.Pd",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Matematika komprehensif untuk siswa kelas 2 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Matematika komprehensif untuk siswa kelas 2 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Matematika Kelas 2 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -168,13 +172,14 @@
     "sku": "ELKA-BI-2",
     "name": "Elkapede Bahasa Indonesia Kelas 2",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 18765,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Indonesia",
       "SD",
@@ -189,7 +194,7 @@
     ],
     "author": "Riski Amalia, S.S.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 2 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 2 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Bahasa Indonesia Kelas 2 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -209,13 +214,14 @@
     "sku": "ELKA-EN-2",
     "name": "Elkapede Bahasa Inggris Kelas 2",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 42109,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Inggris",
       "SD",
@@ -230,7 +236,7 @@
     ],
     "author": "Achmad Dzaky Mubaroq, S.Pd. Gr.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 2 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 2 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Bahasa Inggris Kelas 2 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -250,13 +256,14 @@
     "sku": "ELKA-EN-3",
     "name": "Elkapede Bahasa Inggris Kelas 3",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 29871,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Inggris",
       "SD",
@@ -271,7 +278,7 @@
     ],
     "author": "Achmad Dzaky Mubaroq, S.Pd. Gr.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 3 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 3 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Bahasa Inggris Kelas 3 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -291,13 +298,14 @@
     "sku": "ELKA-IPAS-3",
     "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial Kelas 3",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 11245,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "IPAS",
       "SD",
@@ -312,7 +320,7 @@
     ],
     "author": "Ardiana Frida Sylvia, S.Si",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar IPAS komprehensif untuk siswa kelas 3 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar IPAS komprehensif untuk siswa kelas 3 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Ilmu Pengetahuan Alam dan Sosial Kelas 3 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -332,13 +340,14 @@
     "sku": "ELKA-MAT-3",
     "name": "Elkapede Matematika Kelas 3",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 45678,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Matematika",
       "SD",
@@ -353,7 +362,7 @@
     ],
     "author": "Zulfikar Ali, S.Pd",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Matematika komprehensif untuk siswa kelas 3 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Matematika komprehensif untuk siswa kelas 3 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Matematika Kelas 3 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -373,13 +382,14 @@
     "sku": "ELKA-BI-3",
     "name": "Elkapede Bahasa Indonesia Kelas 3",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 23456,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Indonesia",
       "SD",
@@ -394,7 +404,7 @@
     ],
     "author": "Riski Amalia, S.S.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 3 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 3 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Bahasa Indonesia Kelas 3 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -414,13 +424,14 @@
     "sku": "ELKA-IPAS-4",
     "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial Kelas 4",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 12345,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "IPAS",
       "SD",
@@ -435,7 +446,7 @@
     ],
     "author": "Ardiana Frida Sylvia, S.Si",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar IPAS komprehensif untuk siswa kelas 4 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar IPAS komprehensif untuk siswa kelas 4 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Ilmu Pengetahuan Alam dan Sosial Kelas 4 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -455,13 +466,14 @@
     "sku": "ELKA-BI-4",
     "name": "Elkapede Bahasa Indonesia Kelas 4",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 34567,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Indonesia",
       "SD",
@@ -476,7 +488,7 @@
     ],
     "author": "Riski Amalia, S.S.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 4 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 4 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Bahasa Indonesia Kelas 4 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -496,13 +508,14 @@
     "sku": "ELKA-EN-4",
     "name": "Elkapede Bahasa Inggris Kelas 4",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 19876,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Inggris",
       "SD",
@@ -517,7 +530,7 @@
     ],
     "author": "Achmad Dzaky Mubaroq, S.Pd. Gr.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 4 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 4 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Bahasa Inggris Kelas 4 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -537,13 +550,14 @@
     "sku": "ELKA-MAT-4",
     "name": "Elkapede Matematika Kelas 4",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 49012,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Matematika",
       "SD",
@@ -558,7 +572,7 @@
     ],
     "author": "Zulfikar Ali, S.Pd",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Matematika komprehensif untuk siswa kelas 4 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Matematika komprehensif untuk siswa kelas 4 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Matematika Kelas 4 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -578,13 +592,14 @@
     "sku": "ELKA-BI-5",
     "name": "Elkapede Bahasa Indonesia Kelas 5",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 27654,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Indonesia",
       "SD",
@@ -599,7 +614,7 @@
     ],
     "author": "Riski Amalia, S.S.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 5 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 5 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Bahasa Indonesia Kelas 5 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -615,17 +630,18 @@
     }
   },
   {
-    "id": "elkapede-koding-dan-kecerdasan-artifisial-5-semester-1",
+    "id": "elkapede-koding-dan-kecerdasan-artifisial-5",
     "sku": "ELKA-KOD-5-1",
     "name": "Elkapede Koding dan Kecerdasan Artifisial Kelas 5 ",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 14321,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Koding",
       "AI",
@@ -637,11 +653,11 @@
     ],
     "stock": 9999,
     "image": [
-      "/assets/koding-dan-kecerdasan-artifisial-5.png"
+      "/assets/elkapede-koding-dan-kecerdasan-artifisial-5.png"
     ],
     "author": "Zulfikar Ali, S.Pd",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Koding dan Kecerdasan Artifisial untuk siswa kelas 5 SD/MI .",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Koding dan Kecerdasan Artifisial untuk siswa kelas 5 SD/MI .",
     "fullDescription": "Elkapede Koding dan Kecerdasan Artifisial Kelas 5  adalah buku yang dirancang untuk mengenalkan dasar-dasar logika pemrograman dan konsep AI kepada siswa sejak dini. Materi disajikan secara interaktif dan menyenangkan.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -661,13 +677,14 @@
     "sku": "ELKA-MAT-5",
     "name": "Elkapede Matematika Kelas 5",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 47890,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Matematika",
       "SD",
@@ -682,7 +699,7 @@
     ],
     "author": "Zulfikar Ali, S.Pd",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Matematika komprehensif untuk siswa kelas 5 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Matematika komprehensif untuk siswa kelas 5 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Matematika Kelas 5 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -702,13 +719,14 @@
     "sku": "ELKA-IPAS-5",
     "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial Kelas 5",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 21098,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "IPAS",
       "SD",
@@ -723,7 +741,7 @@
     ],
     "author": "Ardiana Frida Sylvia, S.Si",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar IPAS komprehensif untuk siswa kelas 5 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar IPAS komprehensif untuk siswa kelas 5 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Ilmu Pengetahuan Alam dan Sosial Kelas 5 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -743,13 +761,14 @@
     "sku": "ELKA-EN-5",
     "name": "Elkapede Bahasa Inggris Kelas 5",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 38765,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Inggris",
       "SD",
@@ -764,7 +783,7 @@
     ],
     "author": "Achmad Dzaky Mubaroq, S.Pd. Gr.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 5 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 5 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Bahasa Inggris Kelas 5 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -780,17 +799,18 @@
     }
   },
   {
-    "id": "elkapede-koding-dan-kecerdasan-artifisial-6-semester-1",
+    "id": "elkapede-koding-dan-kecerdasan-artifisial-6",
     "sku": "ELKA-KOD-6-1",
     "name": "Elkapede Koding dan Kecerdasan Artifisial Kelas 6",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 11234,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Koding",
       "AI",
@@ -806,7 +826,7 @@
     ],
     "author": "Zulfikar Ali, S.Pd",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Koding dan Kecerdasan Artifisial untuk siswa kelas 6 SD/MI .",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Koding dan Kecerdasan Artifisial untuk siswa kelas 6 SD/MI .",
     "fullDescription": "Elkapede Koding dan Kecerdasan Artifisial Kelas 6  adalah buku yang dirancang untuk mengenalkan dasar-dasar logika pemrograman dan konsep AI kepada siswa sejak dini. Materi disajikan secara interaktif dan menyenangkan.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -826,13 +846,14 @@
     "sku": "ELKA-EN-6",
     "name": "Elkapede Bahasa Inggris Kelas 6",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 31234,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Inggris",
       "SD",
@@ -847,7 +868,7 @@
     ],
     "author": "Achmad Dzaky Mubaroq, S.Pd. Gr.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 6 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Inggris komprehensif untuk siswa kelas 6 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Bahasa Inggris Kelas 6 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -867,13 +888,14 @@
     "sku": "ELKA-IPAS-6",
     "name": "Elkapede Ilmu Pengetahuan Alam dan Sosial Kelas 6",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 25432,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "IPAS",
       "SD",
@@ -888,7 +910,7 @@
     ],
     "author": "Ardiana Frida Sylvia, S.Si",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar IPAS komprehensif untuk siswa kelas 6 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar IPAS komprehensif untuk siswa kelas 6 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Ilmu Pengetahuan Alam dan Sosial Kelas 6 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -908,13 +930,14 @@
     "sku": "ELKA-MAT-6",
     "name": "Elkapede Matematika Kelas 6",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 46543,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Matematika",
       "SD",
@@ -929,7 +952,7 @@
     ],
     "author": "Zulfikar Ali, S.Pd",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Matematika komprehensif untuk siswa kelas 6 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Matematika komprehensif untuk siswa kelas 6 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Matematika Kelas 6 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -949,13 +972,14 @@
     "sku": "ELKA-BI-6",
     "name": "Elkapede Bahasa Indonesia Kelas 6",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 38901,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Indonesia",
       "SD",
@@ -970,7 +994,7 @@
     ],
     "author": "Riski Amalia, S.S.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 6 SD/MI berdasarkan kurikulum terbaru.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Indonesia komprehensif untuk siswa kelas 6 SD/MI berdasarkan kurikulum terbaru.",
     "fullDescription": "Elkapede Bahasa Indonesia Kelas 6 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
@@ -988,15 +1012,16 @@
   {
     "id": "elkapede-ilmu-pengetahuan-alam-7",
     "sku": "ELKA-IPA-7",
-    "name": "Elkapede Ilmu Pengetahuan Alam untuk SMP/MTs Kelas 7",
+    "name": "Elkapede Ilmu Pengetahuan Alam untuk  Kelas 7",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 41234,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "IPA",
       "SMP",
@@ -1007,13 +1032,12 @@
     ],
     "stock": 9999,
     "image": [
-      "/assets/elkapede-ipa-7.png",
-      "/assets/elkapede-ipa-7b.png"
+      "/assets/elkapede-ilmu-pengetahuan-alam-dan-sosial-7.png"
     ],
     "author": "Ardiana Frida Sylvia, S.Si",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar IPA terpadu untuk siswa kelas 7 SMP/MTs berdasarkan kurikulum terbaru.",
-    "fullDescription": "Elkapede Ilmu Pengetahuan Alam untuk SMP/MTs Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar IPA terpadu untuk siswa kelas 7  berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Ilmu Pengetahuan Alam untuk  Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
       "publishYear": 2025,
@@ -1030,15 +1054,16 @@
   {
     "id": "elkapede-bahasa-indonesia-7",
     "sku": "ELKA-BI-7",
-    "name": "Elkapede Bahasa Indonesia untuk SMP/MTs Kelas 7",
+    "name": "Elkapede Bahasa Indonesia untuk  Kelas 7",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 28765,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Indonesia",
       "SMP",
@@ -1054,8 +1079,8 @@
     ],
     "author": "Johan Wahyudi, S.Pd.,M.Pd.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Indonesia untuk siswa kelas 7 SMP/MTs berdasarkan kurikulum terbaru.",
-    "fullDescription": "Elkapede Bahasa Indonesia untuk SMP/MTs Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Indonesia untuk siswa kelas 7  berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Indonesia untuk  Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
       "publishYear": 2025,
@@ -1072,15 +1097,16 @@
   {
     "id": "elkapede-matematika-7",
     "sku": "ELKA-MAT-7",
-    "name": "Elkapede Matematika untuk SMP/MTs Kelas 7",
+    "name": "Elkapede Matematika untuk  Kelas 7",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 49123,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Matematika",
       "SMP",
@@ -1096,8 +1122,8 @@
     ],
     "author": "Malik Rosyid Ridho, M.Pd.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Matematika untuk siswa kelas 7 SMP/MTs berdasarkan kurikulum terbaru.",
-    "fullDescription": "Elkapede Matematika untuk SMP/MTs Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Matematika untuk siswa kelas 7  berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Matematika untuk  Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
       "publishYear": 2025,
@@ -1114,15 +1140,16 @@
   {
     "id": "elkapede-ilmu-pengetahuan-sosial-7",
     "sku": "ELKA-IPS-7",
-    "name": "Elkapede Ilmu Pengetahuan Sosial untuk SMP/MTs Kelas 7",
+    "name": "Elkapede Ilmu Pengetahuan Sosial untuk  Kelas 7",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 36543,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "IPS",
       "SMP",
@@ -1133,13 +1160,12 @@
     ],
     "stock": 9999,
     "image": [
-      "/assets/elkapede-ips-7.png",
-      "/assets/elkapede-ips-7b.png"
+      "/assets/elkapede-ilmu-pengetahuan-alam-dan-sosial-7.png"
     ],
     "author": "Ahmad Syahdatul Kahfi, S.Sos",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar IPS terpadu untuk siswa kelas 7 SMP/MTs berdasarkan kurikulum terbaru.",
-    "fullDescription": "Elkapede Ilmu Pengetahuan Sosial untuk SMP/MTs Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar IPS terpadu untuk siswa kelas 7  berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Ilmu Pengetahuan Sosial untuk  Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
       "publishYear": 2025,
@@ -1156,15 +1182,16 @@
   {
     "id": "elkapede-bahasa-inggris-7",
     "sku": "ELKA-EN-7",
-    "name": "Elkapede Bahasa Inggris untuk SMP/MTs Kelas 7",
+    "name": "Elkapede Bahasa Inggris untuk  Kelas 7",
     "brand": "Elkapede",
-    "price": 60000,
+    "price": 58800,
     "discount": 0,
-    "salePrice": 48000,
     "new": false,
     "rating": 5,
     "reviewCount": 43210,
-    "category": ["Elkapede"],
+    "category": [
+      "Elkapede"
+    ],
     "keyword": [
       "Bahasa Inggris",
       "SMP",
@@ -1180,8 +1207,8 @@
     ],
     "author": "Achmad Dzaky Mubarroq, S. Pd., Gr.",
     "publisher": "CV. Gubuk Pustaka Harmoni",
-    "shortDescription": "Buku panduan belajar Bahasa Inggris untuk siswa kelas 7 SMP/MTs berdasarkan kurikulum terbaru.",
-    "fullDescription": "Elkapede Bahasa Inggris untuk SMP/MTs Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
+    "shortDescription": "Rp.58.800 Buku panduan belajar Bahasa Inggris untuk siswa kelas 7  berdasarkan kurikulum terbaru.",
+    "fullDescription": "Elkapede Bahasa Inggris untuk  Kelas 7 adalah buku yang dirancang khusus untuk membantu siswa memahami materi pelajaran secara mudah dan menyenangkan. Materi disajikan secara sistematis, dilengkapi dengan contoh soal dan latihan untuk menguji pemahaman.",
     "specifications": {
       "isbn": "978-634-04-2433-1",
       "publishYear": 2025,

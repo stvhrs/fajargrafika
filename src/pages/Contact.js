@@ -28,8 +28,8 @@ const Contact = () => {
           logo: `${siteUrl}assets/img/favicon.png` // Ganti dengan path logo Anda
         })
       ]}
-        titleTemplate="Hubungi Kami"
-        description="Lokasi" title="PT Fajar Grafika Artha Nusantara"
+        title="Hubungi Kami"
+        description="Jl. Tulusari, Kecamatan Plupuh, Kabupaten Sragen, Jawa Tengah"
       />
         <Suspense fallback={<Preloader />}>
           {/* Search Popup */}

@@ -79,7 +79,7 @@ const Katalog = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Buku" title="Katalog"
+     title="Katalog Buku"
         description="Jelajahi KATALOG Lengkap Kami - Temukan Berbagai Genre dan Topik " canonical="https://www.fajargrafika.com/katalog"
       />
       {/* breadcrumb */}

@@ -5,18 +5,15 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 /** ===== CONFIG ===== */
-const BASE_URL = "https://www.fajargrafika.com"; // your domain
-// products.json located in public/assets/products.json
-const PRODUCTS_JSON = path.resolve(__dirname, "../public/assets/products.json");
+const BASE_URL = "https://www.fajargrafika.com";
+const PRODUCTS_JSON = path.resolve(__dirname, "../public/assets/products.json"); // Sesuaikan path jika perlu
 const OUT_DIR = path.resolve(__dirname, "../public");
-
-// If product pages live under /produk/[slug]/ set to "/produk/"
 const PRODUCT_PREFIX = "/katalog/";
 
 const STATIC_PATHS = [
   { loc: "/", priority: 1.0, changefreq: "weekly" },
   { loc: "/katalog/", priority: 0.9, changefreq: "weekly" },
-  { loc: "/contact/", priority: 0.9, changefreq: "weekly" },// Halaman detail layanan
+  { loc: "/contact/", priority: 0.9, changefreq: "weekly" },
   { loc: "/service/percetakan-penerbitan", priority: 0.9, changefreq: "weekly" },
   { loc: "/service/distributor-grosir-buku", priority: 0.9, changefreq: "weekly" },
   { loc: "/service/penulisan-desain-buku", priority: 0.9, changefreq: "weekly" },
@@ -29,18 +26,6 @@ const STATIC_PATHS = [
 const esc = (s) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;").replace(/'/g, "&apos;");
-
-function slugify(name) {
-  return name
-    .toString()
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-zA-Z0-9\s-]/g, "")
-    .trim()
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .toLowerCase();
-}
 
 function absolutizeAsset(p) {
   const clean = p.startsWith("/") ? p : `/${p}`;
@@ -63,7 +48,11 @@ async function run() {
   const products = JSON.parse(raw);
 
   const productUrls = products.map((p) => {
-    const slug = p.slug ? p.slug : slugify(p.name);
+    // ===== PERUBAHAN DI SINI =====
+    // Langsung gunakan ID produk sebagai slug
+    const slug = p.id;
+    // =============================
+
     const pagePath = `${PRODUCT_PREFIX}${slug}/`;
     const firstImage = Array.isArray(p.image) && p.image.length > 0 ? p.image[0] : null;
     const absImage = firstImage ? absolutizeAsset(firstImage) : null;
@@ -107,7 +96,7 @@ ${urlset}
   await mkdir(OUT_DIR, { recursive: true });
   await writeFile(path.join(OUT_DIR, "sitemap.xml"), sitemapXml, "utf8");
 
-  console.log(`✅ Generated sitemap.xml with ${urls.length} URLs (including first product images)`);
+  console.log(`✅ Generated sitemap.xml with ${urls.length} URLs`);
 }
 
 run().catch((e) => {

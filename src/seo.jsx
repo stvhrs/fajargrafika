@@ -68,7 +68,7 @@ export const ldProduct = ({
   brand,
   url,
   price,
-  salePrice,
+
   priceCurrency = "IDR",
   ratingValue,
   reviewCount,
@@ -82,7 +82,7 @@ export const ldProduct = ({
   weight,
 }) => {
   const isBook = authorName || publisherName || isbn || numberOfPages;
-  const currentPrice = salePrice || price;
+  const currentPrice = price;
 
   return prune({
     "@context": "https://schema.org",
@@ -104,7 +104,7 @@ export const ldProduct = ({
         ? {
             "@type": "AggregateRating",
             ratingValue,
-            ratingCount: reviewCount,
+             reviewCount: reviewCount, // <-- UBAH INI (dari ratingCount)
             bestRating: 5,
           }
         : undefined,
@@ -128,8 +128,7 @@ export const ldProduct = ({
 // ======================================================================
 
 const SEO = ({
-  title = "Percetakan dan Penerbit",
-  titleTemplate = "PT. Fajar Grafika Artha Nusantara",
+  title ="PT. Fajar Grafika Artha Nusantara",
   description = "Plupuh, Sragen, Jawa Tengah, Indonesia",
   keywords = "penerbit, percetakan, Fajar Grafika, buku, poster, kalender,pt,fajar,grafika,artha,nusantara",
   canonical = "https://www.fajargrafika.com/",
@@ -138,7 +137,7 @@ const SEO = ({
   author = "PT. Fajar Grafika Artha Nusantara",
   jsonLd = [], // Menerima array JSON-LD yang akan disuntikkan
 }) => {
-  const fullTitle = title === titleTemplate ? titleTemplate : `${title} | ${titleTemplate}`;
+  const fullTitle = title;
 
   return (
     <Helmet>
@@ -152,14 +151,13 @@ const SEO = ({
       <link rel="canonical" href={canonical} />
 
       {/* Open Graph */}
-      <meta property="og:image"  content={image}/>
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
-      <meta property="og:image:alt" content={title || titleTemplate} />
-      <meta property="og:site_name" content={titleTemplate} />
+      <meta property="og:image:alt" content={title } />
+      <meta property="og:site_name" content={title} />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />

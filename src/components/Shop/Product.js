@@ -7,6 +7,7 @@ import ProductImageDescription from "./ProductImageDescription";
 // 1. Impor yang sudah diperbarui: Hanya dari satu file SEO terpusat.
 // Pastikan path-nya sudah sesuai dengan struktur folder Anda.
 import SEO, { ldProduct, ldBreadcrumb } from "../seo";
+import RelatedProductSlider from "./RelatedProductSlider";
 
 const Breadcrumb = React.lazy(() => import("../Breadcrumb"));
 const ORIGIN = "https://www.fajargrafika.com";
@@ -53,7 +54,7 @@ const Product = () => {
       <SEO
         // Meta Tags Dasar & Open Graph
         title={product.name}
-        titleTemplate="Fajar Grafika" // Anda bisa override titleTemplate di sini jika perlu
+     
         description={product.shortDescription}
         image={images[0]}
         canonical={canonicalUrl}
@@ -78,7 +79,7 @@ const Product = () => {
 
             // Properti Harga
             price: product.price,
-            salePrice: product.salePrice,
+          
 
             // Properti Rating
             ratingValue: product.rating,
@@ -97,7 +98,7 @@ const Product = () => {
           }),
         ]}
       />
-
+{/* <RelatedProductSlider  /> */}
       {/* Sisa konten halaman Anda */}
       <Suspense fallback={<Preloader />}>
         <Breadcrumb title={product.name} useKatalog={true} />

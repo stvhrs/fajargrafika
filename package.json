@@ -58,17 +58,48 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-  "postbuild": "react-snap"
+    "postbuild": "react-snap"
   },
   "reactSnap": {
     "source": "build",
     "inlineCss": false, 
-     "include": [
-      "/katalog/elkapede-bahasa-indonesia-1",
-     "/katalog"
+    "include": [
+      "/",
      
-    ],
-    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
+     
+      "/katalog/elkapede-bahasa-indonesia-1",
+      "/katalog/elkapede-matematika-1",
+      "/katalog/elkapede-bahasa-inggris-1",
+      "/katalog/elkapede-matematika-2",
+      "/katalog/elkapede-bahasa-indonesia-2",
+      "/katalog/elkapede-bahasa-inggris-2",
+      "/katalog/elkapede-bahasa-inggris-3",
+      "/katalog/elkapede-ilmu-pengetahuan-alam-dan-sosial-3",
+      "/katalog/elkapede-matematika-3",
+      "/katalog/elkapede-bahasa-indonesia-3",
+      "/katalog/elkapede-ilmu-pengetahuan-alam-dan-sosial-4",
+      "/katalog/elkapede-bahasa-indonesia-4",
+      "/katalog/elkapede-bahasa-inggris-4",
+      "/katalog/elkapede-matematika-4",
+      "/katalog/elkapede-bahasa-indonesia-5",
+      "/katalog/elkapede-koding-dan-kecerdasan-artifisial-5",
+      "/katalog/elkapede-matematika-5",
+      "/katalog/elkapede-ilmu-pengetahuan-alam-dan-sosial-5",
+      "/katalog/elkapede-bahasa-inggris-5",
+      "/katalog/elkapede-koding-dan-kecerdasan-artifisial-6",
+      "/katalog/elkapede-bahasa-inggris-6",
+      "/katalog/elkapede-ilmu-pengetahuan-alam-dan-sosial-6",
+      "/katalog/elkapede-matematika-6",
+      "/katalog/elkapede-bahasa-indonesia-6",
+      "/katalog/elkapede-ilmu-pengetahuan-alam-7",
+      "/katalog/elkapede-bahasa-indonesia-7",
+      "/katalog/elkapede-matematika-7",
+      "/katalog/elkapede-ilmu-pengetahuan-sosial-7",
+      "/katalog/elkapede-bahasa-inggris-7"
+    ],    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
   },
   "eslintConfig": {
     "extends": [
