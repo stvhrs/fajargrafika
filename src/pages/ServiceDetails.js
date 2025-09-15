@@ -29,7 +29,7 @@ const ServiceDetails = () => {
     // 6. Gunakan data yang ditemukan untuk SEO dan komponen lainnya
     return (
         <Fragment>
-            <SEO
+            <SEO image={`https://www.fajargrafika.com/${service.img}`}url={`https://www.fajargrafika.com/service/${service.slug}`}
                 title={service.title} // <-- DATA DINAMIS
                 description={service.des} // <-- DATA DINAMIS
                 canonical={`https://www.fajargrafika.com/service/${service.slug}`} // <-- DATA DINAMIS

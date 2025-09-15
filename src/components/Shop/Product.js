@@ -2,17 +2,19 @@ import React, { Fragment, Suspense } from "react";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import Preloader from "../../elements/Preloader";
-
-import SEOProduct, { ldProduct, ldBreadcrumb } from "./seo_products/seo_p";
 import ProductImageDescription from "./ProductImageDescription";
-const Breadcrumb = React.lazy(() => import("../Breadcrumb"));
 
+// 1. Impor yang sudah diperbarui: Hanya dari satu file SEO terpusat.
+// Pastikan path-nya sudah sesuai dengan struktur folder Anda.
+import SEO, { ldProduct, ldBreadcrumb } from "../seo";
+
+const Breadcrumb = React.lazy(() => import("../Breadcrumb"));
 const ORIGIN = "https://www.fajargrafika.com";
 
 // Helper untuk URL absolut
 const abs = (rel) => (rel?.startsWith("http") ? rel : `${ORIGIN}${rel}`);
 
-// BARU: Helper untuk mem-parsing berat buku (e.g., "± 200 gram" -> { value: 200, unit: "GRM" })
+// Helper untuk mem-parsing berat buku
 const parseWeight = (weightString = "") => {
   const match = weightString.match(/(\d+)\s*gram/i);
   if (match) {
@@ -21,7 +23,7 @@ const parseWeight = (weightString = "") => {
   return null;
 };
 
-// BARU: Helper untuk memetakan jenis jilid ke tipe schema
+// Helper untuk memetakan jenis jilid ke tipe schema
 const getBookFormat = (bindingString = "") => {
   if (bindingString.toLowerCase().includes("lem panas") || bindingString.toLowerCase().includes("perfect binding")) {
     return "Paperback";
@@ -38,53 +40,54 @@ const Product = () => {
   if (!product) {
     return <Preloader />;
   }
-  
-  // -- Persiapan Data untuk SEO --
-  const canonical = `${ORIGIN}/katalog/${product.id}/`;
+
+  // 2. Data SEO disiapkan secara lengkap
+  const canonicalUrl = `${ORIGIN}/katalog/${product.id}/`;
   const images = (product.image || []).map(abs);
   const bookWeight = parseWeight(product.specifications.weight);
   const bookFormat = getBookFormat(product.specifications.binding);
-  
+
   return (
     <Fragment>
-      <SEOProduct
-        // --- Meta Tags Dasar ---
-        title={`${product.name} | ${product.brand}`}
+      {/* 3. Komponen SEO diterapkan dengan semua data yang relevan */}
+      <SEO
+        // Meta Tags Dasar & Open Graph
+        title={product.name}
+        titleTemplate="Fajar Grafika" // Anda bisa override titleTemplate di sini jika perlu
         description={product.shortDescription}
-        keywords={product.keyword.join(", ")}
         image={images[0]}
-        author={product.author}
-        canonical={canonical}
-        url={canonical}
-        
-        // --- JSON-LD Structured Data ---
+        canonical={canonicalUrl}
+        url={canonicalUrl}
+
+
+        // JSON-LD untuk halaman produk ini
         jsonLd={[
           ldBreadcrumb([
             { name: "Beranda", url: `${ORIGIN}/` },
             { name: "Katalog", url: `${ORIGIN}/katalog/` },
-            { name: product.name, url: canonical }
+            { name: product.name, url: canonicalUrl }
           ]),
           ldProduct({
-            // Data Umum
+            // Properti Umum
             name: product.name,
             description: product.fullDescription,
-            images,
+            images: images,
             sku: product.sku,
             brand: product.brand,
-            url: canonical,
-            
-            // Harga (termasuk harga diskon)
+            url: canonicalUrl,
+
+            // Properti Harga
             price: product.price,
             salePrice: product.salePrice,
-            
-            // Rating
+
+            // Properti Rating
             ratingValue: product.rating,
             reviewCount: product.reviewCount,
-            
-            // Ketersediaan
+
+            // Properti Ketersediaan
             availability: product.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-            
-            // Data Spesifik Buku
+
+            // Properti Spesifik Buku (dari data `specifications`)
             authorName: product.author,
             publisherName: product.publisher,
             isbn: product.specifications.isbn,
@@ -94,7 +97,8 @@ const Product = () => {
           }),
         ]}
       />
-      
+
+      {/* Sisa konten halaman Anda */}
       <Suspense fallback={<Preloader />}>
         <Breadcrumb title={product.name} useKatalog={true} />
         <ProductImageDescription
